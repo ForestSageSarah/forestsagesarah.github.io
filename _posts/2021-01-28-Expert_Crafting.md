@@ -1,6 +1,6 @@
 ---
 title: Expert Crafting
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
+date: 2021-01-28 04:15:22
 categories: [CRAFTING, EXPERT CRAFTING]
 tags: [tutorial]     # TAG names should always be lowercase
 comments: false
