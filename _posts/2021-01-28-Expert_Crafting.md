@@ -12,7 +12,6 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 # Expert Crafting
-### Or how I stopped complaining and learned to press buttons
 ***Expert Crafts*** were originally designed to be some of the most complicated crafts, with Higher than normal Quality maximums and strict gear requirements. With the addition of 6.0 Endwalker, things have certainly gotten easier in time. This guide aims to explain the basics behind ***Expert Crafting*** and serve as an entry point for anyone looking to get started or fine tune their process.
 
 ### Conditions
