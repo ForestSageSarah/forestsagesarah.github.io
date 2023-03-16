@@ -5,6 +5,8 @@ categories: [CRAFTING]
 tags: [tutorial]     # TAG names should always be lowercase
 comments: false
 ---
+If you were itching for a new challenge, 6.35's latest additions brings the Crystalline Tools into play for Crafters and Gatherers.
+
 ## Getting Started
 
 | Quest | NPC | Location |
@@ -24,15 +26,27 @@ Much like your local drug dealer, the first one is free and only enough to get y
 
 ## Upgrading to Augmented Splendorous Tools
 
+### Crafters
+
 Each Connoseurs turn-in will reqire items you can only obtain with, you guessed it, **50 White Scrips** per item. Plan to use a total of at least **1000 White Scrips per Job** on this step. Thankfully these aren't Expert Crafts, so you're safe from that torture... for now...
 
 20 'Perfect' collectable crafts (*+900 Collectablity*) should net you the 60 items you need for your job. Otherwise you'll find yourself crafting 60 items to get the 60 splenderous components. If you find yourself barely meeting the requirements for the task, make sure to use Food and Tinctures/Draughts to help you reach better heights!
 
+### Gatherers
+
+To be continued...
+
 ## Upgrading to Crystalline Tools
+
+### Crafters
 
 Almost identical to the previous step, you'll be required to turn in a few more items than last time. Plan to use a total of **1500 White Scrips per Job** at least on this step.
 
 30 'Perfect' collectable crafts (*+1100 Collectablity*) should net you the 90 items you need for your job. Otherwise you'll find yourself crafting 90 items to get the 90 splenderous components.
+
+### Gatherers
+
+To be continued...
 
 ## Getting White Scrips
 
