@@ -26,6 +26,12 @@ Much like your local drug dealer, the first one is free and only enough to get y
 
 ## Upgrading to Augmented Splendorous Tools
 
+Chora-Zoi is excited to begin improvements on those Splendorus tools you just got. So excited, in fact, she has a quest for you! (A Dedicated Tool)
+
+| Quest | NPC | Location |
+|--|--|--|
+| [A Dedicated Tool](https://na.finalfantasyxiv.com/lodestone/playguide/db/quest/bd1ea310d7a/) | Chora-Zoi | Crystarium (X:10.5, Y:7.7) |
+
 ### Crafters
 
 Each Connoisseur's turn-in will reqire items you can only obtain with, you guessed it, **50 White Scrips** per item. Plan to use a total of at least **1000 White Scrips per Job** on this step. Thankfully these aren't Expert Crafts, so you're safe from that torture... for now...
@@ -41,6 +47,12 @@ For your Fishing task, you'll be catching 120 fish instead. With your Splendorou
 By using your resources efficently, such as using Patience II, food, and cordials, you can double your Splendorous Fishing Reel Components that you get for higher collectability.
 
 ## Upgrading to Crystalline Tools
+
+After obtaining your first Augmented Splendorous Tool, you'll be able to undertake another quest from Chroa-Zoi. You'll only be able to do one job at a time, however Chora-Zoi is eager to continue improving the Splendrous Tools. Something tells me this should be quick and easy!
+
+| Quest | NPC | Location |
+|--|--|--|
+| [An Adaptive Tool](https://na.finalfantasyxiv.com/lodestone/playguide/db/quest/cdb96df3af5/) | Chora-Zoi | Crystarium (X:10.5, Y:7.7) |
 
 ### Crafters
 
