@@ -26,7 +26,7 @@ title: Zodiark's Embrace # the main title
 tagline: Crafting and Gathering Focused Tips # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Crafting and Gathering Focused Tips for the Modern Warrior of Light
+  Crafting and Gathering for the modern Warrior of Light
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://zodiarksembrace.com'
@@ -83,7 +83,7 @@ theme_mode: dark
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/profile/Sticky_Avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -116,6 +116,8 @@ assets:
     env:          # [development|production]
 
 paginate: 10
+
+excerpt_separator: <!--more-->
 
 # ------------ The following options are not recommended to be modified ------------------
 
