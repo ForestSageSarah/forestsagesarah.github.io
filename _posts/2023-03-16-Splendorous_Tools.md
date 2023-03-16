@@ -87,15 +87,15 @@ Fishers, you'll be catching fish once more (*Surprise!*). With your Augmented Sp
 
 ### Don't forget those weekly Custom Deliveries!
 
-![image You can check your timers in-game with CTRL+U](/assets/img/post/Splendorous_Tools/Timers.png)
-
 If you forgot that M'naago, Adkiragh, Kai-Shirr, and the others existed - don't worry I get a bit distracted with saving the world and all too! If you're low on scrips and want a quick boost to get you started, these weekly quests are a great way to get a jump on things. Even if you decide that these weekly quests are the only way you're making any sort of scrip income, its a great passive way to get a relic or two done a week.
+
+![image You can check your timers in-game with CTRL+U](/assets/img/post/Splendorous_Tools/Timers.png)
 
 ### Collectable Turn-Ins
 
-![image Example CUL Collectables](/assets/img/post/Splendorous_Tools/Collectables.png)
-
 Of course, when we get down to the nitty gritty details, a good old fashioned collectable turn-in spree does the trick. Feel free to choose any current content turn-in to get scrips, as any income in this regard is a positive. If you ask my opinion, here's my top tier turn ins for Endwalker:
+
+![image Example CUL Collectables](/assets/img/post/Splendorous_Tools/Collectables.png)
 
 1. **Rarefied Giant Popoto Pancakes (*Culinarian*)**: Only requires 4 main materials, but also includes two pre-crafts. Double the crafting, but honestly very much cruise control for scrips. You can very much get away with quick synthing the base materials and macro crafting the collectables.
 
