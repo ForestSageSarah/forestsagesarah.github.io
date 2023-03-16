@@ -4,6 +4,9 @@ date: 2023-03-16 10:27:00 -0400
 categories: [CRAFTING]
 tags: [tutorial]     # TAG names should always be lowercase
 comments: false
+image:
+  path: /assets/img/post/splendorous_tools_title.png
+  alt: A Lalafell looking over the Splendorous Tools
 ---
 If you were itching for a new challenge, 6.35's latest additions brings the Crystalline Tools into play for Crafters and Gatherers.
 
@@ -26,7 +29,7 @@ Much like your local drug dealer, the first one is free and only enough to get y
 
 ## Upgrading to Augmented Splendorous Tools
 
-Chora-Zoi is excited to begin improvements on those Splendorus tools you just got. So excited, in fact, she has a quest for you! (A Dedicated Tool)
+Chora-Zoi is excited to begin improvements on those Splendorus tools you just received. So excited, in fact, she has a quest for you!
 
 | Quest | NPC | Location |
 |--|--|--|
