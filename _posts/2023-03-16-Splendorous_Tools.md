@@ -5,7 +5,7 @@ categories: [CRAFTING]
 tags: [tutorial]     # TAG names should always be lowercase
 comments: false
 image:
-  path: /assets/img/post/splendorous_tools_title.png
+  path: /assets/img/post/Splendorous_Tools/splendorous_tools_title.png
   alt: A Lalafell looking over the Splendorous Tools
 ---
 If you were itching for a new challenge, 6.35's latest additions brings the Crystalline Tools into play for Crafters and Gatherers.
@@ -26,6 +26,7 @@ Your first task is to head on over to the Crystarium and locate Chora-Zoi. From 
 
 Much like your local drug dealer, the first one is free and only enough to get you hooked. You'll need to cough up some scrips for the rest of the set - **1500 White Scrips per Tool**. Honestly, diabolical marketing by Mowen and the rest of the House of Splendors here. Does my little lala heart good~
 
+![image Splendorous Tools - 1500 White Scrips](assets/post/Splendorous_Tools/DoL_Tools.png)
 
 ## Upgrading to Augmented Splendorous Tools
 
