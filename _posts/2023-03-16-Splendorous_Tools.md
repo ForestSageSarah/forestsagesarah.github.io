@@ -26,7 +26,8 @@ Your first task is to head on over to the Crystarium and locate Chora-Zoi. From 
 
 Much like your local drug dealer, the first one is free and only enough to get you hooked. You'll need to cough up some scrips for the rest of the set - **1500 White Scrips per Tool**. Honestly, diabolical marketing by Mowen and the rest of the House of Splendors here. Does my little lala heart good~
 
-![image Splendorous Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/DoL_Tools.png)
+![image Splendorous DoH Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/DoH_Tools.png)
+![image Splendorous DoL Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/DoL_Tools.png)
 
 ## Upgrading to Augmented Splendorous Tools
 
@@ -40,13 +41,19 @@ Chora-Zoi is excited to begin improvements on those Splendorus tools you just re
 
 Each Connoisseur's turn-in will reqire items you can only obtain with, you guessed it, **50 White Scrips** per item. Plan to use a total of at least **1000 White Scrips per Job** on this step. Thankfully these aren't Expert Crafts, so you're safe from that torture... for now...
 
+![image Splendorous DoL Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/DoH_Ingredents.png)
+
 20 'Perfect' collectable crafts (*+900 Collectablity*) should net you the 60 items you need for your job. Otherwise you'll find yourself crafting 60 items to get the 60 splenderous components. If you find yourself barely meeting the requirements for the task, make sure to use Food and Tinctures/Draughts to help you reach better heights!
+
+![image A Very Packed Inventory!](/assets/img/post/Splendorous_Tools/CUL_Turn_in.png)
 
 ### Gatherers
 
 For your Miner and Botanist jobs, you'll need to collect 180 of Connoisseur's Primstone & Connoisseur's Wattle Petribark, respectively, while using your new Splendorous tools. Thier locations can be found by following the links or by checking out your Gathering Log in game, under the Sidequest section.
 
 For your Fishing task, you'll be catching 120 fish instead. With your Splendorous Rod equipped, you'll need to net yourself a Clavekeeper (*+283 Collectablity*) or Platinum Seahorse (*+47 Collectablity*) using a **Select Bait Ball** - convienently available from Quinnana for *5 Scrips, each*. **Make sure to turn on *Collect* before your first cast!**
+
+![image Splendorous DoL Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/FSH_Bait.png)
 
 By using your resources efficently, such as using Patience II, food, and cordials, you can double your Splendorous Fishing Reel Components that you get for higher collectability.
 
