@@ -24,6 +24,8 @@ If you were itching for a new challenge, 6.35's latest additions brings the Crys
 
 Your first task is to head on over to the Crystarium and locate Chora-Zoi. From there you'll reunite with some familiar faces at the Crystaline mean. After a cute cutscene or two, you'll be rewarded with a Splendorous Coffer that will take the shape of whatever main hand that is for the DoL/DoH class you were on when you opened it.
 
+![image Quinnana robbing local lalafell blind of White Scrips, more at 11](/assets/img/post/Splendorous_Tools/Quinnana.png)
+
 Much like your local drug dealer, the first one is free and only enough to get you hooked. You'll need to cough up some scrips for the rest of the set - **1500 White Scrips per Tool**. Honestly, diabolical marketing by Mowen and the rest of the House of Splendors here. Does my little lala heart good~
 
 ![image Splendorous DoH Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/DoH_Tools.png)
@@ -32,6 +34,8 @@ Much like your local drug dealer, the first one is free and only enough to get y
 ## Upgrading to Augmented Splendorous Tools
 
 Chora-Zoi is excited to begin improvements on those Splendorus tools you just received. So excited, in fact, she has a quest for you!
+
+![image Chora-Zoi wonders why her rations are mouthing off](/assets/img/post/Splendorous_Tools/Chora-Zoi.png)
 
 | Quest | NPC | Location |
 |--|--|--|
@@ -53,11 +57,13 @@ For your Miner and Botanist jobs, you'll need to collect 180 of Connoisseur's Pr
 
 For your Fishing task, you'll be catching 120 fish instead. With your Splendorous Rod equipped, you'll need to net yourself a Clavekeeper (*+283 Collectablity*) or Platinum Seahorse (*+47 Collectablity*) using a **Select Bait Ball** - convienently available from Quinnana for *5 Scrips, each*. **Make sure to turn on *Collect* before your first cast!**
 
-![image Splendorous DoL Tools - 1500 White Scrips](/assets/img/post/Splendorous_Tools/FSH_Bait.png)
+![image Splendorous Select Bait Ball - Only 5 White Scrips Each](/assets/img/post/Splendorous_Tools/FSH_Bait.png)
 
 By using your resources efficently, such as using Patience II, food, and cordials, you can double your Splendorous Fishing Reel Components that you get for higher collectability.
 
 ## Upgrading to Crystalline Tools
+
+![image Sticky holding the Crystalline Pan](/assets/img/post/Splendorous_Tools/Crystalline_Pan.png)
 
 After obtaining your first Augmented Splendorous Tool, you'll be able to undertake another quest from Chroa-Zoi. You'll only be able to do one job at a time, however Chora-Zoi is eager to continue improving the Splendrous Tools. Something tells me this should be quick and easy!
 
