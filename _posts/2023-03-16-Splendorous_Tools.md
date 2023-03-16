@@ -15,7 +15,7 @@ If you were itching for a new challenge, 6.35's latest additions brings the Crys
 
 > **This Quest Has Prerequisites**:
 > - [The Crystalline Mean](https://na.finalfantasyxiv.com/lodestone/playguide/db/quest/214a62d7189/)
-> - The Boutique Always Wins
+> - [The Boutique Always Wins](https://ffxiv.consolegameswiki.com/wiki/The_Boutique_Always_Wins)
 > - Level 90 Disciple of the Land/Hand
 {: .prompt-tip }
 
@@ -28,13 +28,17 @@ Much like your local drug dealer, the first one is free and only enough to get y
 
 ### Crafters
 
-Each Connoseurs turn-in will reqire items you can only obtain with, you guessed it, **50 White Scrips** per item. Plan to use a total of at least **1000 White Scrips per Job** on this step. Thankfully these aren't Expert Crafts, so you're safe from that torture... for now...
+Each Connoisseur's turn-in will reqire items you can only obtain with, you guessed it, **50 White Scrips** per item. Plan to use a total of at least **1000 White Scrips per Job** on this step. Thankfully these aren't Expert Crafts, so you're safe from that torture... for now...
 
 20 'Perfect' collectable crafts (*+900 Collectablity*) should net you the 60 items you need for your job. Otherwise you'll find yourself crafting 60 items to get the 60 splenderous components. If you find yourself barely meeting the requirements for the task, make sure to use Food and Tinctures/Draughts to help you reach better heights!
 
 ### Gatherers
 
-To be continued...
+For your Miner and Botanist jobs, you'll need to collect 180 of Connoisseur's Primstone & Connoisseur's Wattle Petribark, respectively, while using your new Splendorous tools. Thier locations can be found by following the links or by checking out your Gathering Log in game, under the Sidequest section.
+
+For your Fishing task, you'll be catching 120 fish instead. With your Splendorous Rod equipped, you'll need to net yourself a Clavekeeper (*+283 Collectablity*) or Platinum Seahorse (*+47 Collectablity*) using a **Select Bait Ball** - convienently available from Quinnana for *5 Scrips, each*. **Make sure to turn on *Collect* before your first cast!**
+
+By using your resources efficently, such as using Patience II, food, and cordials, you can double your Splendorous Fishing Reel Components that you get for higher collectability.
 
 ## Upgrading to Crystalline Tools
 
@@ -46,7 +50,9 @@ Almost identical to the previous step, you'll be required to turn in a few more 
 
 ### Gatherers
 
-To be continued...
+For your Miner and Botanist jobs, you'll need to collect 180 of Connoisseur's Red Malachite & Connoisseur's Levin Mint (*+570 Collectability*), respectively, while using your new Augmented Splendorous tools. Thier locations can be found by following the links or by checking out your Gathering Log in game, as done previously.
+
+Fishers, you'll be catching fish once more (*Surprise!*). With your Augmented Splendorous Rod equipped, you'll need to net yourself a Spangled Pirarucu (*+425 Collectability*) or Mirror Image (*+9 Collectablity*) this time, still using a **Select Bait Ball** - available from Quinnana for *5 Scrips, each*. **Remember to have *Collect* on and use your skills!**
 
 ## Getting White Scrips
 
@@ -56,7 +62,7 @@ If you forgot that M'naago, Adkiragh, Kai-Shirr, and the others existed - don't 
 
 ### Collectable Turn-Ins
 
-Of course, when we get down to the nitty gritty details, a good old fashioned collectable does the trick. Feel free to choose any current content turn-in to get scrips, as any income in this regard is a positive. If you ask my opinion, here's my top tier turn ins for Endwalker:
+Of course, when we get down to the nitty gritty details, a good old fashioned collectable turn-in spree does the trick. Feel free to choose any current content turn-in to get scrips, as any income in this regard is a positive. If you ask my opinion, here's my top tier turn ins for Endwalker:
 
 1. **Rarefied Giant Popoto Pancakes (*Culinarian*)**: Only requires 4 main materials, but also includes two pre-crafts. Double the crafting, but honestly very much cruise control for scrips. You can very much get away with quick synthing the base materials and macro crafting the collectables.
 
