@@ -269,3 +269,4 @@ Mastery comes when the process feels conversational rather than chaotic.
 ---
 
 *This guide focuses on system understanding rather than patch-specific rotations.*
+
