@@ -1,6 +1,6 @@
 ---
-title: Expert Crafting — A Systems-Level Guide
-date: 2026-02-03 23:00:00 -0500
+title: Expert Crafting — An Overview
+date: 2026-02-03 23:28:00 -0500
 categories: [FFXIV, CRAFTING]
 tags: [ffxiv, expert crafting, ishgard restoration, endwalker]
 comments: false
