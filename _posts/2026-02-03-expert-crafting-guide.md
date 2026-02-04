@@ -23,9 +23,9 @@ This guide outlines the systems that govern expert crafting and the principles t
 
 Expert recipes differ from standard crafts in three important ways:
 
-- Higher quality ceilings, requiring deliberate quality investment
-- Unpredictable conditions, replacing Excellent and Poor
-- Narrow margins, where mismanagement compounds quickly
+- Higher quality ceilings, requiring deliberate quality investment  
+- Unpredictable conditions, replacing Excellent and Poor  
+- Narrow margins, where mismanagement compounds quickly  
 
 These elements shift the focus from execution to evaluation. Every step asks a question. The craft ends when you stop answering them correctly.
 
@@ -64,6 +64,20 @@ Primed rewards foresight. Its value depends entirely on what follows.
 
 ---
 
+## Condition Usage Matrix
+
+| Condition  | Primary Use Case              | Common Misuse                  |
+|-----------|-------------------------------|--------------------------------|
+| Centered  | Risk reduction                | Treated as a payoff window     |
+| Sturdy    | Durability extension           | Ignored or underutilized       |
+| Pliant    | High-cost action deployment    | CP overspending without plan   |
+| Malleable | Controlled progress gain       | Accidental craft completion    |
+| Primed    | Buff extension setup           | Immediate low-value action     |
+
+Conditions should be leveraged deliberately, not reflexively.
+
+---
+
 ## Resources and Constraints
 
 Expert crafting is governed by three finite resources:
@@ -76,18 +90,67 @@ These resources are interdependent. The purpose of most actions is not immediate
 
 A craft typically fails when one resource collapses before the others can compensate.
 
+### Resource Interaction Table
+
+| Resource     | When Healthy                      | When Failing                          | Typical Result |
+|-------------|-----------------------------------|---------------------------------------|----------------|
+| Durability  | Allows setup and recovery          | Limits remaining decisions            | Forced finish |
+| CP          | Enables adaptation                 | Removes flexibility                   | Low quality   |
+| Progress    | Under controlled threshold         | Accidentally completed or lagging     | Premature end |
+
 ---
 
-## A Practical Decision Framework
+## The Expert Crafting Decision Loop
 
-Expert crafting favors a repeated evaluation loop rather than a fixed sequence.
+Expert crafting is best understood as a repeated evaluation cycle. Each step narrows the set of acceptable actions.
 
-1. Evaluate progress  
-2. Evaluate durability  
-3. Evaluate CP  
-4. Evaluate condition  
+```mermaid
+graph TD
+A[New Step] --> B[Check Progress]
+B --> C[Check Durability]
+C --> D[Check CP]
+D --> E[Check Condition]
+E --> F[Select Action]
+F --> A
+```
 
-Each step informs whether the current action should stabilize, prepare, or commit.
+Skipping any node in this loop introduces instability.
+
+---
+
+## Quality Phase
+
+The **Quality Phase** is the most cognitively demanding portion of an expert craft. The objective is to reach **11 stacks of Inner Quiet** while preserving CP and durability. This phase rewards pattern recognition rather than speed.
+
+```mermaid
+graph LR
+A[Inner Quiet not active] --> B[Apply Inner Quiet]
+B --> C{Check Condition}
+
+C -->|Normal or Malleable| D[Prudent Touch]
+C -->|Centered| D
+C -->|Sturdy| D
+C -->|Pliant| E[Manipulation]
+C -->|Primed| F[Innovation]
+C -->|Good| G[Precise Touch]
+
+G --> H{Inner Quiet at 11?}
+H -->|No| C
+H -->|Yes| I[Prepare for Cash-Out]
+```
+
+---
+
+## Quality Spending Heuristic
+
+| Situation                         | Recommended Action      |
+|----------------------------------|-------------------------|
+| Neutral or poor condition        | Setup or stabilize      |
+| Favorable condition + CP buffer  | High-impact quality     |
+| Low CP, high durability          | Guaranteed value        |
+| Low durability                   | Stop gambling           |
+
+Quality is not accumulated continuously. It is harvested selectively.
 
 ---
 
@@ -95,15 +158,29 @@ Each step informs whether the current action should stabilize, prepare, or commi
 
 Progress should be advanced deliberately. Overshooting progress is a common and costly error.
 
-Strong progress actions are best reserved for catching up, exploiting Malleable, or setting a controlled finish.
+```mermaid
+graph LR
+A[Progress Behind] --> B[Use Progress Action]
+B --> C[Re-evaluate Progress]
 
----
+A -->|Malleable| D[Strong Progress Action]
+D --> C
 
-## Quality Investment
+C --> E{Near Completion?}
+E -->|No| A
+E -->|Yes| F[Precision Progress Only]
+```
 
-Quality is most effectively gained during favorable conditions. Early overcommitment often results in CP depletion without sufficient return.
+### Progress Control Thresholds
 
-Successful crafts tend to build slowly and cash out decisively.
+| Progress State     | Recommended Behavior              |
+|-------------------|-----------------------------------|
+| Far from complete | Safe setup, condition fishing     |
+| Mid-range         | Controlled progress advances      |
+| Near completion   | Precision actions only            |
+| Finish-ready      | Commit intentionally              |
+
+Overshooting progress is not a timing error. It is a planning failure.
 
 ---
 
@@ -115,47 +192,59 @@ Recovery without purpose frequently results in wasted resources.
 
 ---
 
+## Failure Recovery Decision Tree
+
+```mermaid
+graph LR
+A[Craft Destabilizing] --> B{Durability Low?}
+B -->|Yes| C[Recover Durability]
+B -->|No| D{CP Low?}
+
+D -->|Yes| E[Guaranteed Value Actions]
+D -->|No| F{Progress Risk?}
+
+F -->|Yes| G[Stabilize Progress]
+F -->|No| H[Resume Normal Loop]
+```
+
+---
+
 ## Post-Endwalker vs Ishgard Restoration Expert Crafting
 
 Although the mechanics of expert crafting remain consistent, the experience differs notably between the Ishgard Restoration era and post-Endwalker content.
 
 ### Ishgard Restoration Era
 
-During the Ishgard Restoration, expert crafting emphasized **scarcity and precision**.
-
-- Gear requirements were strict, often requiring near-optimal melds
-- CP margins were tight, amplifying the consequences of early mistakes
-- Fewer recovery tools were available, making stabilization more difficult
-- Success favored conservative pacing and discipline
-
-Failure during this period was often irreversible once momentum was lost.
+- Strict gear and meld requirements  
+- Tight CP margins  
+- Limited recovery tools  
+- Failure often irreversible  
 
 ### Post-Endwalker Era
 
-Post-Endwalker expert crafting places greater emphasis on **systems literacy** than raw stat pressure.
+- Higher baseline stats  
+- Expanded recovery options  
+- Greater tolerance for mistakes  
+- Overconfidence becomes the primary risk  
 
-- Higher baseline stats reduce early volatility
-- Expanded toolkits offer more recovery and flexibility
-- Mistakes are more survivable, but inefficiency still compounds
-- Success favors deliberate exploitation of conditions rather than rigid caution
-
-While more forgiving, post-Endwalker crafts still punish autopilot and reward restraint.
-
-### Practical Implications
-
-Players transitioning from Ishgard-era expert crafting may find post-Endwalker crafts more flexible but easier to misplay through overconfidence. The system remains intact; only the margins have widened.
-
-Expert crafting is still won by awareness, not aggression.
+The system remains intact; only the margins have widened.
 
 ---
 
 ## Common Failure Patterns
 
-- Early overcommitment
-- Accidental progress completion
-- Condition tunnel vision
+- Early overcommitment  
+- Accidental progress completion  
+- Condition tunnel vision  
 
-Most failures trace back to ignoring one of the three core resources.
+### Failure Diagnosis Table
+
+| Symptom                       | Root Cause                   |
+|------------------------------|------------------------------|
+| Ran out of CP                | Early overcommitment         |
+| Finished too early           | Uncontrolled progress        |
+| High durability, low quality | Missed condition exploitation|
+| Sudden collapse              | No recovery buffer           |
 
 ---
 
@@ -163,7 +252,9 @@ Most failures trace back to ignoring one of the three core resources.
 
 Improvement comes from post-run analysis rather than repetition.
 
-After each failure, identify which resource failed first and why recovery was no longer possible.
+After each failure, identify:
+- Which resource failed first  
+- Why recovery was no longer possible  
 
 ---
 
