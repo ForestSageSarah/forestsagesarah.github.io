@@ -9,8 +9,8 @@ announcement_id: "undefined"
 ---
 
 ## All Worlds Maintenance schedule
-|Time Zone|Starting Time|Ending Time|
-|---|---|---|
+|Time Zone|Starting Time|Ending Time |
+|---------|-------------|------------|
 |ET|2026-02-05 00:00|2026-02-05 03:10|
 |CT|2026-02-04 23:00|2026-02-05 02:10|
 |MT|2026-02-04 22:00|2026-02-05 01:10|
