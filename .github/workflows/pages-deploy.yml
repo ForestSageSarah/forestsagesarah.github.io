@@ -1,13 +1,14 @@
 name: 'Automatic build'
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths-ignore:
       - .gitignore
       - README.md
       - LICENSE
-
+  schedule:
+    - cron: "0 9 * * *"  # daily rebuild at 9 UTC
+    
 jobs:
   continuous-delivery:
 
