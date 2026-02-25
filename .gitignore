@@ -5,6 +5,10 @@
 !.nojekyll
 !.travis.yml
 
+# Cursor / editor metadata
+.cursor/
+.cursorrules
+
 # bundler cache
 _site
 vendor
