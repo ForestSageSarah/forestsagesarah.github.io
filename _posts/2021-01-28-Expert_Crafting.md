@@ -1,12 +1,16 @@
 ---
-title: Expert Crafting
+layout: post
+title: "FFXIV Expert Crafting Guide — Conditions, Phases, and Macro-Free Tips"
+description: "Learn FFXIV expert crafting: Centered, Sturdy, Pliant, Malleable, Primed conditions, opener and quality phases, and when to adapt."
 date: 2021-01-28 04:15:22 -0500
 categories: [CRAFTING, EXPERT CRAFTING]
-tags: [tutorial]     # TAG names should always be lowercase
+tags: [ffxiv, expert crafting, conditions, quality phase, crafting guide]
+image: /assets/img/post/expert-crafting.jpg
+author: Sticky Buns
+toc: true
 comments: false
 mermaid: true
 excerpt_separator: <!--more-->
-
 ---
 
 > *If you wish to make an apple pie from scratch, you must first invent the universe* - Carl Sagan

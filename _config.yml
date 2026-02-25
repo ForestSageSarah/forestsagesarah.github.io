@@ -3,6 +3,11 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+# Plugins (generate sitemap.xml, SEO meta tags)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
 baseurl: ''
@@ -21,34 +26,27 @@ timezone: America/Detroit
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Zodiark's Embrace # the main title
+title: Zodiark's Embrace
 
-tagline: Crafting and Gathering Focused Tips # it will display as the sub-title
+tagline: FFXIV guides, lore, and Dawntrail for raiders and story enthusiasts
 
-description: >-                        # used by seo meta and the atom feed
-  Crafting and Gathering for the modern Warrior of Light
+description: "FFXIV guides, lore analysis, and Dawntrail content for raiders and story enthusiasts"
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://zodiarksembrace.com'
+url: "https://zodiarksembrace.com"
+
+author: Sticky Buns
 
 github:
-  username: ForestSageSarah # change to your github username
+  username: ForestSageSarah
 
 twitter:
-  username: banshin_sticky # change to your twitter username
+  username: banshin_sticky
+  card: summary_large_image
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Sticky Buns
-  email: Sticky@ZodiarksEmbrace.com           # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/banshin_sticky      # change to your twitter homepage
-    - https://github.com/ForestSageSarah       # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  name: Zodiark's Embrace
+  email: Sticky@ZodiarksEmbrace.com
+  links: []
 
 google_site_verification:               # fill in to your verification string
 

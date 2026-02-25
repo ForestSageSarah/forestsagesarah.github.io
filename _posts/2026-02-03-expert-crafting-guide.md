@@ -1,8 +1,13 @@
 ---
-title: Expert Crafting — An Overview
+layout: post
+title: "FFXIV Expert Crafting Guide — Overview, Conditions, and Principles"
+description: "FFXIV expert crafting explained: what makes a craft expert, condition usage matrix, and principles for adaptation over memorization."
 date: 2026-02-03 23:28:00 -0500
 categories: [FFXIV, CRAFTING]
-tags: [ffxiv, expert crafting, ishgard restoration, endwalker]
+tags: [ffxiv, expert crafting, conditions, crafting guide, endwalker]
+image: /assets/img/post/expert-crafting-overview.jpg
+author: Sticky Buns
+toc: true
 comments: false
 ---
 

@@ -1,8 +1,13 @@
 ---
-title: Specialist Crafting
+layout: post
+title: "FFXIV Specialist Crafting Guide — How Specialists Work"
+description: "FFXIV specialist crafting explained: what specialists are, how to unlock and use them for extra crafting steps and recipes."
 date: 2020-02-18 05:47:14 -0500
 categories: [CRAFTING, SPECIALIST CRAFTING]
-tags: [tutorial]     # TAG names should always be lowercase
+tags: [ffxiv, specialist crafting, crafting, specialists]
+image: /assets/img/post/specialist-crafting.jpg
+author: Sticky Buns
+toc: true
 comments: false
 ---
 > Crafting with Extra Steps

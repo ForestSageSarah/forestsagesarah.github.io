@@ -1,8 +1,13 @@
 ---
-title: Crafting (DoH) Guide 1-90
+layout: post
+title: "FFXIV Crafting Leveling Guide 1-90 — DoH Leveling (Endwalker)"
+description: "Level all FFXIV crafters 1-90 with macros, Ishgard Restoration, and Diadem. DoH leveling guide for Endwalker with gear and EXP tips."
 date: 2023-02-28 13:52:14 -0500
 categories: [CRAFTING]
-tags: [tutorial]     # TAG names should always be lowercase
+tags: [ffxiv, crafting, leveling, doh, ishgard restoration, endwalker, macros]
+image: /assets/img/post/crafting-doh-1-90.jpg
+author: Sticky Buns
+toc: true
 comments: false
 ---
 Hey there, adventurer!
