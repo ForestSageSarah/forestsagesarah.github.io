@@ -4,7 +4,7 @@ title: "Splendorous Tools Guide — FFXIV 6.35 Crafting & Gathering Relics"
 description: "Unlock and upgrade Splendorous Tools in FFXIV 6.35: Crystalline Mean quests, White Scrips, augmented and Crystalline steps for DoH/DoL."
 date: 2023-03-16 10:27:00 -0400
 categories: [CRAFTING]
-tags: [ffxiv, splendorous tools, crafting relics, gathering relics, 6.35, crystalline tools]
+tags: [ffxiv, splendorous tools, crafting relics, gathering relics, "6.35", crystalline tools]
 image: /assets/img/post/Splendorous_Tools/splendorous_tools_title.png
 comments: false
 ---
