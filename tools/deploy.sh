@@ -56,13 +56,12 @@ build() {
 }
 
 test() {
-  # Skip --check-html and internal hash check: long Splendorous posts trigger
-  # false positives (premature end of file, ToC anchor mismatches) with html-proofer 3.x
+  # Omit --check-html so HTML validation is not run (avoids false "Premature end of file"
+  # on long Splendorous posts). Exclude those two posts from all checks via --file-ignore.
   bundle exec htmlproofer \
     --disable-external \
     --allow_hash_href \
-    --no-check-html \
-    --no-check-internal-hash \
+    --file-ignore "posts/Splendorous_Tools/index.html,posts/Splendorous_Gathering_Tools/index.html" \
     "$SITE_DIR"
 }
 
