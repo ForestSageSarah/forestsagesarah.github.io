@@ -5,7 +5,6 @@ description: "Unlock and upgrade Splendorous Tools in FFXIV 6.35: Crystalline Me
 date: 2023-03-16 10:27:00 -0400
 categories: [CRAFTING]
 tags: [ffxiv, splendorous tools, crafting relics, gathering relics, "6.35", crystalline tools]
-image: /assets/img/post/Splendorous_Tools/splendorous_tools_title.png
 comments: false
 ---
 If you were itching for a new challenge, 6.35's latest additions brings the Crystalline Tools into play for Crafters and Gatherers.

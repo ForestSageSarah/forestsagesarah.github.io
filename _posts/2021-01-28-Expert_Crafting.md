@@ -5,7 +5,6 @@ description: "Learn FFXIV expert crafting: Centered, Sturdy, Pliant, Malleable, 
 date: 2021-01-28 04:15:22 -0500
 categories: [CRAFTING, EXPERT CRAFTING]
 tags: [ffxiv, expert crafting, conditions, quality phase, crafting guide]
-image: /assets/img/post/expert-crafting.jpg
 author: Sticky Buns
 toc: true
 comments: false

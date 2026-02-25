@@ -5,7 +5,6 @@ description: "FFXIV All Worlds Maintenance Feb 4: start and end times in ET, CT,
 date: 2026-02-03
 categories: [lodestone, maintenance]
 tags: [ffxiv, maintenance, all-worlds, downtime, lodestone]
-image: /assets/img/post/maintenance-feb-4.jpg
 author: Sticky Buns
 source_url: "https://na.finalfantasyxiv.com/lodestone/news/detail/c76a3027b6fc32bdeeb80a281f2e201ed8a7881a"
 announcement_id: "undefined"
