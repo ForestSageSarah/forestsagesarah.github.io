@@ -24,7 +24,10 @@ Splendorous Tools are the level 90+ relic tools for Disciples of the Hand and La
 - Gathering collectables and locations
 
 **Total Time Investment:** 15-30 hours per job (varies by playstyle)  
-**Total Scrip Cost:** ~4,000-6,000 White Scrips per job
+**Total Scrip Cost:** ~4,000-6,000 Purple Scrips per job
+
+> **Note:** Purple Scrips are officially called "Purple Crafter's Scrips" (for DoH) and "Purple Gatherer's Scrips" (for DoL). They appear purple in-game despite sometimes being referred to as "White Scrips" in older content.
+{: .prompt-info }
 
 ---
 
@@ -68,7 +71,7 @@ Before starting, you must have:
 
 Complete "An Original Improvement" to receive your first Splendorous Coffer. Open it on the job you want the tool for.
 
-### Additional Tools (1,500 White Scrips Each)
+### Additional Tools (1,500 Purple Scrips Each)
 
 Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
@@ -85,7 +88,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 - Botanist: Splendorous Hatchet
 - Fisher: Splendorous Fishing Rod
 
-**Budget Planning:** If doing all 11 jobs, you'll need 15,000 White Scrips just for base tools (first is free).
+**Budget Planning:** If doing all 11 jobs, you'll need 15,000 Purple Scrips just for base tools (first is free).
 
 ---
 
@@ -105,10 +108,10 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 **Turn-in:** 60 Splendorous Components to Quinnana
 
 **Materials per Craft:**
-- 1x Select Material (50 White Scrips from Quinnana)
+- 1x Select Material (50 Purple Scrips from Quinnana)
 - 2x Gatherable Material
 
-**Total Cost:** ~1,000 White Scrips per job
+**Total Cost:** ~1,000 Purple Scrips per job
 
 **Pro Tip:** Use <span data-xivapi-item="36106">Rarefied Tsai tou Vonou</span> or similar HQ food to boost stats. The Trained Eye ability guarantees max collectability instantly.
 
@@ -158,7 +161,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
 **Fisher:** Clavekeeper or Platinum Seahorse
 - Quantity: 120 fish total
-- Bait: Select Bait Ball (5 White Scrips from Quinnana)
+- Bait: Select Bait Ball (5 Purple Scrips from Quinnana)
 - **CRITICAL:** Turn on Collectables mode before casting
 - Use Patience II and Cordials for efficiency
 
@@ -179,7 +182,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
 **Turn-in:** 90 Adaptive Components to Quinnana
 
-**Total Cost:** ~1,500 White Scrips per job
+**Total Cost:** ~1,500 Purple Scrips per job
 
 **Note:** Recipes require 3-4 materials including Select items. Continue using Trained Eye for instant max collectability.
 
@@ -219,7 +222,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 **Turn-in:** 90 Customized Components
 
 **Materials:** 3-4 ingredients including Select items  
-**Cost:** ~1,500 White Scrips per job
+**Cost:** ~1,500 Purple Scrips per job
 
 ---
 
@@ -237,7 +240,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 **Turn-in:** 90 Brilliant Components
 
 **Materials:** 4 ingredients including Select items  
-**Cost:** ~2,000 White Scrips per job
+**Cost:** ~2,000 Purple Scrips per job
 
 **Example: Carpenter (Connoisseur's Bookshelf):**
 - 1x Select Dark Chestnut Lumber
@@ -260,7 +263,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 **Objective:** 20 max collectability crafts  
 **Turn-in:** 60 Inspirational Components
 
-**Cost:** ~1,500 White Scrips per job
+**Cost:** ~1,500 Purple Scrips per job
 
 **IMPORTANT:** This stage requires a crafting macro (Trained Eye no longer works).
 
@@ -319,7 +322,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 **Objective:** 20 max collectability crafts  
 **Turn-in:** 60 Nightforged Components
 
-**Cost:** ~2,000 White Scrips per job
+**Cost:** ~2,000 Purple Scrips per job
 
 **IMPORTANT:** Requires enhanced macro with tincture.
 
@@ -372,7 +375,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
 ---
 
-## Efficient White Scrip Farming
+## Efficient Purple Scrip Farming
 
 ### Custom Deliveries (Best Passive Method)
 
