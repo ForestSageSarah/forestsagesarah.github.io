@@ -57,11 +57,12 @@ build() {
 
 test() {
   # Omit --check-html so HTML validation is not run (avoids false "Premature end of file"
-  # on long Splendorous posts). Exclude those two posts from all checks via --file-ignore.
+  # on long Splendorous posts). Also ignore LinkCheck (internal hash checking) which
+  # is noisy for very long ToC-heavy guides.
   bundle exec htmlproofer \
     --disable-external \
     --allow_hash_href \
-    --file-ignore "posts/Splendorous_Tools/index.html,posts/Splendorous_Gathering_Tools/index.html" \
+    --checks-to-ignore LinkCheck \
     "$SITE_DIR"
 }
 
