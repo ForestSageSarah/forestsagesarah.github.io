@@ -111,7 +111,7 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 - 1x Select Material (50 Purple Scrips from Quinnana)
 - 2x Gatherable Material
 
-**Total Cost:** ~1,000 Purple Scrips per job
+**Total Cost:** ~1,000 Purple Scrips per job.
 
 **Pro Tip:** Use <span data-xivapi-item="36106">Rarefied Tsai tou Vonou</span> or similar HQ food to boost stats. The Trained Eye ability guarantees max collectability instantly.
 
