@@ -60,7 +60,7 @@ test() {
     --disable-external \
     --check-html \
     --allow_hash_href \
-    --file-ignore "/posts/Splendorous_Tools/index.html,/posts/Splendorous_Gathering_Tools/index.html" \
+    --file-ignore 'posts/Splendorous_Tools/,posts/Splendorous_Gathering_Tools/' \
     "$SITE_DIR"
 }
 
