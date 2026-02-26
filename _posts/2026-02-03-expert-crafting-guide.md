@@ -5,7 +5,7 @@ description: "FFXIV expert crafting explained: what makes a craft expert, condit
 date: 2026-02-03 23:28:00 -0500
 categories: [FFXIV, CRAFTING]
 tags: [ffxiv, expert crafting, conditions, crafting guide, endwalker]
-author: Sticky Buns
+author: sticky_buns
 toc: true
 comments: false
 ---

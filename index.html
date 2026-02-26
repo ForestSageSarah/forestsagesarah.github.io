@@ -1,4 +1,28 @@
 ---
-layout: home
-# Index page
+layout: default
+title: Home
 ---
+
+{% if page.url == "/" %}
+<div class="row listrecent">
+  <div class="section-title col-md-12 mt-4">
+    <h2 id="featured">Featured</h2>
+  </div>
+  {% for post in site.posts %}
+  {% if post.featured == true %}
+  {% include featuredbox.html %}
+  {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<div class="row listrecent">
+  <div class="section-title col-md-12 mt-4">
+    <h2 id="posts">All Stories</h2>
+  </div>
+  {% for post in paginator.posts %}
+  {% include postbox.html %}
+  {% endfor %}
+</div>
+
+{% include pagination.html %}

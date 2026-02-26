@@ -5,7 +5,7 @@ description: "FFXIV specialist crafting explained: what specialists are, how to 
 date: 2020-02-18 05:47:14 -0500
 categories: [CRAFTING, SPECIALIST CRAFTING]
 tags: [ffxiv, specialist crafting, crafting, specialists]
-author: Sticky Buns
+author: sticky_buns
 toc: true
 comments: false
 ---

@@ -5,7 +5,7 @@ description: "Level all FFXIV crafters 1-90 with macros, Ishgard Restoration, an
 date: 2023-02-28 13:52:14 -0500
 categories: [CRAFTING]
 tags: [ffxiv, crafting, leveling, doh, ishgard restoration, endwalker, macros]
-author: Sticky Buns
+author: sticky_buns
 toc: true
 comments: false
 ---

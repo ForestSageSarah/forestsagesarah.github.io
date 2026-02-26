@@ -5,7 +5,7 @@ description: "Complete guide to Splendorous Gathering Tools (Lodestar Tools) for
 date: 2023-03-17 10:30:00 -0400
 categories: [GATHERING]
 tags: [ffxiv, splendorous-tools, lodestar-tools, gathering-relics, miner, botanist, fisher, endwalker, dawntrail]
-author: Sticky Buns
+author: sticky_buns
 comments: false
 toc: true
 ---

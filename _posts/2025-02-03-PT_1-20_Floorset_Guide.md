@@ -5,7 +5,7 @@ description: "Pilgrims Traverse floors 1-20 guide: enemy highlights, chests, mim
 date: 2025-02-03 12:00:00 -0500
 categories: [DEEP DUNGEON]
 tags: [ffxiv, pilgrims traverse, deep dungeon, dawntrail, floorset, floors 1-20]
-author: Sticky Buns
+author: sticky_buns
 toc: true
 comments: false
 ---
