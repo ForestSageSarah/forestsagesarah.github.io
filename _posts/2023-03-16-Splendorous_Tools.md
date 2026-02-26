@@ -277,34 +277,34 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
 **Macro 1:**
 ```text
-/ac "Reflect" &lt;wait.3&gt;
-/ac "Basic Touch" &lt;wait.3&gt;
-/ac "Refined Touch" &lt;wait.3&gt;
-/ac "Trained Perfection" &lt;wait.3&gt;
-/ac "Great Strides" &lt;wait.2&gt;
-/ac "Innovation" &lt;wait.2&gt;
-/ac "Preparatory Touch" &lt;wait.3&gt;
-/ac "Prudent Touch" &lt;wait.3&gt;
-/ac "Great Strides" &lt;wait.2&gt;
-/ac "Preparatory Touch" &lt;wait.3&gt;
-/ac "Immaculate Mend" &lt;wait.3&gt;
-/ac "Great Strides" &lt;wait.2&gt;
-/ac "Innovation" &lt;wait.2&gt;
-/ac "Waste Not II" &lt;wait.2&gt;
-/ac "Preparatory Touch" &lt;wait.3&gt;
+/ac "Reflect" <wait.3>
+/ac "Basic Touch" <wait.3>
+/ac "Refined Touch" <wait.3>
+/ac "Trained Perfection" <wait.3>
+/ac "Great Strides" <wait.2>
+/ac "Innovation" <wait.2>
+/ac "Preparatory Touch" <wait.3>
+/ac "Prudent Touch" <wait.3>
+/ac "Great Strides" <wait.2>
+/ac "Preparatory Touch" <wait.3>
+/ac "Immaculate Mend" <wait.3>
+/ac "Great Strides" <wait.2>
+/ac "Innovation" <wait.2>
+/ac "Waste Not II" <wait.2>
+/ac "Preparatory Touch" <wait.3>
 ```
 
 **Macro 2:**
 ```text
-/ac "Great Strides" &lt;wait.2&gt;
-/ac "Byregot's Blessing" &lt;wait.3&gt;
-/ac "Veneration" &lt;wait.2&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Veneration" &lt;wait.2&gt;
-/ac "Careful Synthesis" &lt;wait.3&gt;
+/ac "Great Strides" <wait.2>
+/ac "Byregot's Blessing" <wait.3>
+/ac "Veneration" <wait.2>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Veneration" <wait.2>
+/ac "Careful Synthesis" <wait.3>
 ```
 
 ---
@@ -337,38 +337,38 @@ Purchase from **Quinnana** in The Crystarium (X:10.4, Y:7.7).
 
 **Macro 1:**
 ```text
-/ac "Reflect" &lt;wait.3&gt;
-/ac "Prudent Touch" &lt;wait.3&gt;
-/ac "Innovation" &lt;wait.2&gt;
-/ac "Basic Touch" &lt;wait.3&gt;
-/ac "Basic Touch" &lt;wait.3&gt;
-/ac "Standard Touch" &lt;wait.3&gt;
-/ac "Advanced Touch" &lt;wait.3&gt;
-/ac "Immaculate Mend" &lt;wait.3&gt;
-/ac "Innovation" &lt;wait.2&gt;
-/ac "Prudent Touch" &lt;wait.3&gt;
-/ac "Basic Touch" &lt;wait.3&gt;
-/ac "Standard Touch" &lt;wait.3&gt;
-/ac "Advanced Touch" &lt;wait.3&gt;
-/ac "Trained Perfection" &lt;wait.3&gt;
-/ac "Great Strides" &lt;wait.2&gt;
+/ac "Reflect" <wait.3>
+/ac "Prudent Touch" <wait.3>
+/ac "Innovation" <wait.2>
+/ac "Basic Touch" <wait.3>
+/ac "Basic Touch" <wait.3>
+/ac "Standard Touch" <wait.3>
+/ac "Advanced Touch" <wait.3>
+/ac "Immaculate Mend" <wait.3>
+/ac "Innovation" <wait.2>
+/ac "Prudent Touch" <wait.3>
+/ac "Basic Touch" <wait.3>
+/ac "Standard Touch" <wait.3>
+/ac "Advanced Touch" <wait.3>
+/ac "Trained Perfection" <wait.3>
+/ac "Great Strides" <wait.2>
 ```
 
 **Macro 2:**
 ```text
-/ac "Innovation" &lt;wait.2&gt;
-/ac "Preparatory Touch" &lt;wait.3&gt;
-/ac "Great Strides" &lt;wait.2&gt;
-/ac "Byregot's Blessing" &lt;wait.3&gt;
-/ac "Careful Synthesis" &lt;wait.3&gt;
-/ac "Immaculate Mend" &lt;wait.3&gt;
-/ac "Waste Not" &lt;wait.2&gt;
-/ac "Veneration" &lt;wait.2&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Groundwork" &lt;wait.3&gt;
-/ac "Careful Synthesis" &lt;wait.3&gt;
+/ac "Innovation" <wait.2>
+/ac "Preparatory Touch" <wait.3>
+/ac "Great Strides" <wait.2>
+/ac "Byregot's Blessing" <wait.3>
+/ac "Careful Synthesis" <wait.3>
+/ac "Immaculate Mend" <wait.3>
+/ac "Waste Not" <wait.2>
+/ac "Veneration" <wait.2>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Groundwork" <wait.3>
+/ac "Careful Synthesis" <wait.3>
 ```
 
 **Congratulations! You now have your Lodestar Tool - the final stage of the Splendorous relic chain.**

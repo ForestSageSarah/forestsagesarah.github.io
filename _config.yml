@@ -48,17 +48,38 @@ social:
   email: Sticky@ZodiarksEmbrace.com
   links: []
 
-google_site_verification:               # fill in to your verification string
+# Site verification (optional)
+webmaster_verifications:
+  google:          # fill in to your verification string
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: G-DQE2XHW5RD  # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
+# Web analytics
+analytics:
+  google:
+    id: G-DQE2XHW5RD
+  goatcounter:
+    id:
+  umami:
+    id:
+    domain:
+  matomo:
+    id:
+    domain:
+  cloudflare:
+    id:
+  fathom:
+    id:
+
+# Page views
+pageviews:
+  provider:        # now only supports 'goatcounter'
 
 # Prefer color scheme setting.
 #
@@ -73,22 +94,22 @@ google_analytics:
 #
 theme_mode: dark
 
-# The CDN endpoint for images.
-# Notice that once it is assigned, the CDN url
-# will be added to all image (site avatar & posts' images) paths starting with '/'
+# The CDN endpoint for media (images, audio, video).
+# When set, this URL will prefix all media paths starting with '/'.
 #
-# e.g. 'https://cdn.com'
-img_cdn:
+# e.g. 'https://cdn.zodiarksembrace.com'
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/img/profile/Sticky_Avatar.png
 
-# boolean type, the global switch for ToC in posts.
+# boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
-  # The active options are as follows:
+  # Global switch for the post-comment system. Keeping it empty means disabled.
+  provider:       # [disqus | utterances | giscus]
+  # Provider options:
   disqus:
     shortname: zesb    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
@@ -120,6 +141,7 @@ excerpt_separator: <!--more-->
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
+  footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts:   # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
@@ -156,14 +178,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: assets/img/favicons
-    values:
-      swcache: true
-  - scope:
-      path: assets/js/dist
-    values:
-      swcache: true
 
 sass:
   style: compressed
