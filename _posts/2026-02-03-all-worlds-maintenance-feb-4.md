@@ -7,7 +7,7 @@ categories: [lodestone, maintenance]
 tags: [ffxiv, maintenance, all-worlds, downtime, lodestone]
 author: Sticky Buns
 source_url: "https://na.finalfantasyxiv.com/lodestone/news/detail/c76a3027b6fc32bdeeb80a281f2e201ed8a7881a"
-announcement_id: "undefined"
+announcement_id: "c76a3027b6fc32bdeeb80a281f2e201ed8a7881a"
 ---
 
 ## All Worlds Maintenance schedule

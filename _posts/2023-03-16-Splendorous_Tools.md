@@ -5,6 +5,7 @@ description: "Complete guide to Splendorous Tools (Lodestar Tools) for FFXIV cra
 date: 2023-03-16 10:27:00 -0400
 categories: [CRAFTING]
 tags: [ffxiv, splendorous-tools, lodestar-tools, crafting-relics, gathering-relics, endwalker, dawntrail, crystalline-tools]
+author: Sticky Buns
 comments: false
 toc: true
 ---

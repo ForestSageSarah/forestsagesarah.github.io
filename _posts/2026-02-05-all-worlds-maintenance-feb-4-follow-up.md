@@ -7,7 +7,7 @@ categories: [lodestone, maintenance]
 tags: [ffxiv, maintenance, all-worlds, downtime, lodestone]
 author: Sticky Buns
 source_url: "https://na.finalfantasyxiv.com/lodestone/news/detail/685ec70021b830d2925b66b55a0fdf269afec9ea"
-announcement_id: "undefined"
+announcement_id: "685ec70021b830d2925b66b55a0fdf269afec9ea"
 ---
 
 ## All Worlds Maintenance schedule
@@ -25,5 +25,4 @@ announcement_id: "undefined"
 - Expect companion services to be unavailable
 
 ## Official source
-Read the full announcement here:
-https://na.finalfantasyxiv.com/lodestone/news/detail/685ec70021b830d2925b66b55a0fdf269afec9ea
+Read the full announcement here: [FFXIV Lodestone maintenance notice](https://na.finalfantasyxiv.com/lodestone/news/detail/685ec70021b830d2925b66b55a0fdf269afec9ea)
