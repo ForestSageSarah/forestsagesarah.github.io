@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "FFXIV Splendorous Tools Complete Guide - All 6 Stages (Crafter & Gatherer Relics)"
 description: "Complete guide to Splendorous Tools (Lodestar Tools) for FFXIV crafters and gatherers. Step-by-step progression from base tools through all 6 upgrade stages with materials, scrip costs, and macros."
 date: 2023-03-16 10:27:00 -0400

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "FFXIV All Worlds Maintenance Feb 4–5 — Follow-up Schedule (ET, CT, MT, PT)"
 description: "FFXIV All Worlds Maintenance follow-up: start and end times in ET, CT, MT, and PT. Downtime checklist and official Lodestone source."
 date: 2026-02-05

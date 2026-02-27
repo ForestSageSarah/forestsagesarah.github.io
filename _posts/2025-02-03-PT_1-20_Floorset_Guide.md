@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Pilgrims Traverse 1-20 Guide — FFXIV Dawntrail Deep Dungeon Floorset"
 description: "Pilgrims Traverse floors 1-20 guide: enemy highlights, chests, mimics, and hoard rewards for FFXIV Dawntrail deep dungeon."
 date: 2025-02-03 12:00:00 -0500

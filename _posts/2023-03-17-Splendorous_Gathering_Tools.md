@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "FFXIV Splendorous Gathering Tools Complete Guide - All 6 Stages (MIN/BTN/FSH)"
 description: "Complete guide to Splendorous Gathering Tools (Lodestar Tools) for FFXIV gatherers. Step-by-step progression from base tools through all 6 upgrade stages with rotations, locations, and collectables."
 date: 2023-03-17 10:30:00 -0400

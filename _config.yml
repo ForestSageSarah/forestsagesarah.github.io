@@ -12,7 +12,7 @@ author:
   bio: "FFXIV strategist and systems optimizer."
   location: "Online"
 
-logo: "/assets/images/logo.png"
+# logo: "/assets/images/logo.png"  # Add when file exists
 
 plugins:
   - jekyll-remote-theme

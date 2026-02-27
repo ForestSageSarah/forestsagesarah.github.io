@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "FFXIV Specialist Crafting Guide — How Specialists Work"
 description: "FFXIV specialist crafting explained: what specialists are, how to unlock and use them for extra crafting steps and recipes."
 date: 2020-02-18 05:47:14 -0500
