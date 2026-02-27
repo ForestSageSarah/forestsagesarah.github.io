@@ -1,7 +1,7 @@
 name: 'Automatic build'
 on:
   push:
-    branches: [ main ]
+    branches: [ main, reset/zodiarks-clean ]
     paths-ignore:
       - .gitignore
       - README.md

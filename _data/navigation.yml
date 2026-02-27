@@ -1,0 +1,9 @@
+main:
+  - title: "Jobs"
+    url: /jobs/
+  - title: "Crafting"
+    url: /crafting/
+  - title: "Systems"
+    url: /systems/
+  - title: "News"
+    url: /news/
