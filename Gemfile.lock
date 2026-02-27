@@ -60,6 +60,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -107,6 +109,7 @@ DEPENDENCIES
   jekyll-archives (~> 2.2)
   jekyll-feed (~> 0.17)
   jekyll-paginate (~> 1.1)
+  jekyll-include-cache (~> 0.2)
   jekyll-remote-theme (~> 0.4)
   jekyll-seo-tag (~> 2.8)
   jekyll-sitemap (~> 1.4)

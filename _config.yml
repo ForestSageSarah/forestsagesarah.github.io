@@ -1,36 +1,35 @@
-# Hyde theme - https://github.com/poole/hyde
+remote_theme: "mmistakes/minimal-mistakes"
 
-remote_theme: poole/hyde
-
-# Site
-title: "Zodiark's Embrace"
-tagline: "FFXIV guides, lore, and Dawntrail for raiders and story enthusiasts"
-description: "FFXIV guides, lore analysis, and Dawntrail content for raiders and story enthusiasts."
+title: "Zodiarks Embrace"
+description: "Strategic FFXIV guides, macros, and optimization tools."
 url: "https://zodiarksembrace.com"
 baseurl: ""
 
-author:
-  name: "Sticky Buns"
-  url: "https://twitter.com/banshin_sticky"
+repository: "ForestSageSarah/forestsagesarah.github.io"
 
-# Plugins
+author:
+  name: "Sarah Copeland"
+  bio: "FFXIV strategist and systems optimizer."
+  location: "Online"
+
+logo: "/assets/images/logo.png"
+
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-feed
+  - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
 
-include: ["_pages"]
+include:
+  - "_pages"
 
-# Permalinks (Hyde uses pretty: /posts/my-post/)
 permalink: pretty
 
-# Pagination
 paginate: 10
-paginate_path: /page:num/
+paginate_path: "/page:num/"
 
-# Markdown (GitHub Pages uses kramdown/rouge; Hyde originally used redcarpet/pygments)
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -42,13 +41,17 @@ kramdown:
 
 excerpt_separator: "<!--more-->"
 
-# Defaults for posts
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: single
+      toc: true
+      toc_sticky: true
+      comments: false
+      share: false
+      author_profile: false
 
 exclude:
   - "*.gem"
