@@ -3,8 +3,9 @@ layout: single
 title: "FFXIV All Worlds Maintenance Feb 4–5 — Follow-up Schedule (ET, CT, MT, PT)"
 description: "FFXIV All Worlds Maintenance follow-up: start and end times in ET, CT, MT, and PT. Downtime checklist and official Lodestone source."
 date: 2026-02-05
-categories: [news]
+categories: [lodestone, maintenance]
 tags: [ffxiv, maintenance, all-worlds, downtime, lodestone]
+author: sticky_buns
 source_url: "https://na.finalfantasyxiv.com/lodestone/news/detail/685ec70021b830d2925b66b55a0fdf269afec9ea"
 announcement_id: "685ec70021b830d2925b66b55a0fdf269afec9ea"
 ---

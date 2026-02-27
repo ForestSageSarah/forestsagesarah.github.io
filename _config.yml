@@ -1,3 +1,5 @@
+# Zodiarks Embrace — clean Jekyll + Minimal Mistakes baseline
+
 remote_theme: "mmistakes/minimal-mistakes"
 
 title: "Zodiarks Embrace"
@@ -12,13 +14,11 @@ author:
   bio: "FFXIV strategist and systems optimizer."
   location: "Online"
 
-# logo: "/assets/images/logo.png"  # Add when file exists
-
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
 
@@ -26,7 +26,6 @@ include:
   - "_pages"
 
 permalink: pretty
-
 paginate: 10
 paginate_path: "/page:num/"
 
@@ -64,3 +63,4 @@ exclude:
   - changelog.md
   - Gemfile
   - Gemfile.lock
+  - _content_backup

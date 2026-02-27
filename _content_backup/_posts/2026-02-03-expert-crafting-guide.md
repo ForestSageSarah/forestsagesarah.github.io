@@ -3,8 +3,9 @@ layout: single
 title: "FFXIV Expert Crafting Guide — Overview, Conditions, and Principles"
 description: "FFXIV expert crafting explained: what makes a craft expert, condition usage matrix, and principles for adaptation over memorization."
 date: 2026-02-03 23:28:00 -0500
-categories: [crafting]
+categories: [FFXIV, CRAFTING]
 tags: [ffxiv, expert crafting, conditions, crafting guide, endwalker]
+author: sticky_buns
 toc: true
 comments: false
 ---
