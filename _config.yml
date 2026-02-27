@@ -1,40 +1,17 @@
-# Site (Mediumish theme)
-# https://github.com/codebygina/mediumish-theme-jekyll
+# Hyde theme - https://github.com/poole/hyde
 
-remote_theme: codebygina/mediumish-theme-jekyll
+remote_theme: poole/hyde
 
-name: "Zodiark's Embrace"
+# Site
 title: "Zodiark's Embrace"
-description: "FFXIV guides, lore analysis, and Dawntrail content for raiders and story enthusiasts"
+tagline: "FFXIV guides, lore, and Dawntrail for raiders and story enthusiasts"
+description: "FFXIV guides, lore analysis, and Dawntrail content for raiders and story enthusiasts."
 url: "https://zodiarksembrace.com"
-baseurl: ''
+baseurl: ""
 
-logo: "assets/img/profile/Sticky_Avatar.png"
-favicon: "assets/img/profile/Sticky_Avatar.png"
-
-# Analytics (theme uses legacy GA; for GA4 add gtag in a custom override)
-google_analytics: "G-DQE2XHW5RD"
-
-# Comments (leave empty to disable)
-disqus:
-
-# Newsletter (leave empty to disable)
-mailchimp-list:
-
-# Ads
-adsense: "disabled"
-lazyimages: "disabled"
-
-# Authors (post front matter uses author: sticky_buns)
-authors:
-  sticky_buns:
-    name: Sticky Buns
-    display_name: Sticky Buns
-    gravatar:
-    email: Sticky@ZodiarksEmbrace.com
-    web: "https://zodiarksembrace.com"
-    twitter: "https://twitter.com/banshin_sticky"
-    description: "FFXIV guides, lore, and Dawntrail for raiders and story enthusiasts."
+author:
+  name: "Sticky Buns"
+  url: "https://twitter.com/banshin_sticky"
 
 # Plugins
 plugins:
@@ -43,28 +20,19 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-archives
 
 include: ["_pages"]
 
-permalink: /posts/:title/
+# Permalinks (Hyde uses pretty: /posts/my-post/)
+permalink: pretty
 
 # Pagination
 paginate: 10
 paginate_path: /page:num/
 
-# Archives (categories/tags)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    category: "/categories/:name/"
-    tag: "/tags/:name/"
-
-# Markdown
+# Markdown (GitHub Pages uses kramdown/rouge; Hyde originally used redcarpet/pygments)
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -74,14 +42,13 @@ kramdown:
 
 excerpt_separator: "<!--more-->"
 
-# Defaults for posts (theme uses layout: post)
+# Defaults for posts
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
-      author: sticky_buns
 
 exclude:
   - "*.gem"
