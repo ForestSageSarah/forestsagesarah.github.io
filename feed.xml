@@ -1,0 +1,2533 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://zodiarksembrace.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zodiarksembrace.com/" rel="alternate" type="text/html" /><updated>2026-02-28T09:33:19+00:00</updated><id>https://zodiarksembrace.com/feed.xml</id><title type="html">Zodiarks Embrace</title><subtitle>Strategic FFXIV guides, macros, and optimization tools.</subtitle><author><name>Sarah Copeland</name></author><entry><title type="html">FFXIV All Worlds Maintenance Feb 4–5 — Follow-up Schedule (ET, CT, MT, PT)</title><link href="https://zodiarksembrace.com/news/2026/02/05/all-worlds-maintenance-feb-4-follow-up/" rel="alternate" type="text/html" title="FFXIV All Worlds Maintenance Feb 4–5 — Follow-up Schedule (ET, CT, MT, PT)" /><published>2026-02-05T00:00:00+00:00</published><updated>2026-02-05T00:00:00+00:00</updated><id>https://zodiarksembrace.com/news/2026/02/05/all-worlds-maintenance-feb-4-follow-up</id><content type="html" xml:base="https://zodiarksembrace.com/news/2026/02/05/all-worlds-maintenance-feb-4-follow-up/"><![CDATA[<h2 id="all-worlds-maintenance-schedule">All Worlds Maintenance schedule</h2>
+<p>|Time Zone|Starting Time|Ending Time |
+|———|————-|————|
+|ET|2026-02-05 00:00|2026-02-05 03:10|
+|CT|2026-02-04 23:00|2026-02-05 02:10|
+|MT|2026-02-04 22:00|2026-02-05 01:10|
+|PT|2026-02-04 21:00|2026-02-05 00:10|</p>
+
+<h2 id="quick-checklist">Quick checklist</h2>
+<ul>
+  <li>Log out in a safe area before downtime</li>
+  <li>Wrap up timed activities (ventures, crafting in progress)</li>
+  <li>Plan roulettes and weekly resets around the window</li>
+  <li>Expect companion services to be unavailable</li>
+</ul>
+
+<h2 id="official-source">Official source</h2>
+<p>Read the full announcement here: <a href="https://na.finalfantasyxiv.com/lodestone/news/detail/685ec70021b830d2925b66b55a0fdf269afec9ea">FFXIV Lodestone maintenance notice</a></p>]]></content><author><name>Sarah Copeland</name></author><category term="news" /><category term="ffxiv" /><category term="maintenance" /><category term="all-worlds" /><category term="downtime" /><category term="lodestone" /><summary type="html"><![CDATA[FFXIV All Worlds Maintenance follow-up: start and end times in ET, CT, MT, and PT. Downtime checklist and official Lodestone source.]]></summary></entry><entry><title type="html">FFXIV Expert Crafting Guide — Overview, Conditions, and Principles</title><link href="https://zodiarksembrace.com/crafting/2026/02/04/expert-crafting-guide/" rel="alternate" type="text/html" title="FFXIV Expert Crafting Guide — Overview, Conditions, and Principles" /><published>2026-02-04T04:28:00+00:00</published><updated>2026-02-04T04:28:00+00:00</updated><id>https://zodiarksembrace.com/crafting/2026/02/04/expert-crafting-guide</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2026/02/04/expert-crafting-guide/"><![CDATA[<blockquote>
+  <p><em>If you wish to make an apple pie from scratch, you must first invent the universe.</em><br />
+— Carl Sagan</p>
+</blockquote>
+
+<h2 id="expert-crafting">Expert Crafting</h2>
+
+<p>Expert crafting exists to remove the illusion that crafting in Final Fantasy XIV is solved. These recipes were designed to resist macro automation, enforce resource awareness, and reward the crafter who understands why an action is chosen rather than merely when.</p>
+
+<p>While later expansions have softened the gear requirements and expanded available tools, the underlying structure of expert crafts has remained intact. Success is not determined by memorization, but by adaptation.</p>
+
+<p>This guide outlines the systems that govern expert crafting and the principles that make it manageable.</p>
+
+<hr />
+
+<h2 id="what-makes-a-craft-expert">What Makes a Craft “Expert”</h2>
+
+<p>Expert recipes differ from standard crafts in three important ways:</p>
+
+<ul>
+  <li>Higher quality ceilings, requiring deliberate quality investment</li>
+  <li>Unpredictable conditions, replacing Excellent and Poor</li>
+  <li>Narrow margins, where mismanagement compounds quickly</li>
+</ul>
+
+<p>These elements shift the focus from execution to evaluation. Every step asks a question. The craft ends when you stop answering them correctly.</p>
+
+<hr />
+
+<h2 id="conditions">Conditions</h2>
+
+<p>Expert crafting replaces traditional condition states with five specialized statuses. These conditions are the primary source of variance and opportunity.</p>
+
+<p>There are no Excellent or Poor conditions. Instead, the following states appear:</p>
+
+<h3 id="centered">Centered</h3>
+<p>Increases action success rate by <strong>25%</strong>.</p>
+
+<p>Centered reduces risk. It does not increase output, but it enables consistency when using actions with failure chance.</p>
+
+<h3 id="sturdy">Sturdy</h3>
+<p>Reduces durability loss by <strong>50%</strong>.</p>
+
+<p>Sturdy stacks multiplicatively with effects such as <em>Waste Not</em>, allowing extended setup and safer progress advancement.</p>
+
+<h3 id="pliant">Pliant</h3>
+<p>Reduces CP cost by <strong>50%</strong>.</p>
+
+<p>Pliant is the primary window for high-efficiency CP spending. Poor use of this condition often leads to late-stage instability.</p>
+
+<h3 id="malleable">Malleable</h3>
+<p>Increases progress gains by <strong>1.5×</strong>.</p>
+
+<p>Malleable multiplies progress bonuses rather than adding to them. While powerful, it must be managed carefully to avoid premature completion.</p>
+
+<h3 id="primed">Primed</h3>
+<p>Extends the duration of the next status applied by an action by <strong>2 additional steps</strong>.</p>
+
+<p>Primed rewards foresight. Its value depends entirely on what follows.</p>
+
+<hr />
+
+<h2 id="condition-usage-matrix">Condition Usage Matrix</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Condition</th>
+      <th>Primary Use Case</th>
+      <th>Common Misuse</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Centered</td>
+      <td>Risk reduction</td>
+      <td>Treated as a payoff window</td>
+    </tr>
+    <tr>
+      <td>Sturdy</td>
+      <td>Durability extension</td>
+      <td>Ignored or underutilized</td>
+    </tr>
+    <tr>
+      <td>Pliant</td>
+      <td>High-cost action deployment</td>
+      <td>CP overspending without plan</td>
+    </tr>
+    <tr>
+      <td>Malleable</td>
+      <td>Controlled progress gain</td>
+      <td>Accidental craft completion</td>
+    </tr>
+    <tr>
+      <td>Primed</td>
+      <td>Buff extension setup</td>
+      <td>Immediate low-value action</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Conditions should be leveraged deliberately, not reflexively.</p>
+
+<hr />
+
+<h2 id="resources-and-constraints">Resources and Constraints</h2>
+
+<p>Expert crafting is governed by three finite resources:</p>
+
+<ul>
+  <li>Durability</li>
+  <li>CP</li>
+  <li>Remaining progress</li>
+</ul>
+
+<p>These resources are interdependent. The purpose of most actions is not immediate gain, but future flexibility.</p>
+
+<p>A craft typically fails when one resource collapses before the others can compensate.</p>
+
+<h3 id="resource-interaction-table">Resource Interaction Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Resource</th>
+      <th>When Healthy</th>
+      <th>When Failing</th>
+      <th>Typical Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Durability</td>
+      <td>Allows setup and recovery</td>
+      <td>Limits remaining decisions</td>
+      <td>Forced finish</td>
+    </tr>
+    <tr>
+      <td>CP</td>
+      <td>Enables adaptation</td>
+      <td>Removes flexibility</td>
+      <td>Low quality</td>
+    </tr>
+    <tr>
+      <td>Progress</td>
+      <td>Under controlled threshold</td>
+      <td>Accidentally completed or lagging</td>
+      <td>Premature end</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="the-expert-crafting-decision-loop">The Expert Crafting Decision Loop</h2>
+
+<p>Expert crafting is best understood as a repeated evaluation cycle. Each step narrows the set of acceptable actions.</p>
+
+<pre><code class="language-mermaid">graph TD
+A[New Step] --&gt; B[Check Progress]
+B --&gt; C[Check Durability]
+C --&gt; D[Check CP]
+D --&gt; E[Check Condition]
+E --&gt; F[Select Action]
+F --&gt; A
+</code></pre>
+
+<p>Skipping any node in this loop introduces instability.</p>
+
+<hr />
+
+<h2 id="quality-phase">Quality Phase</h2>
+
+<p>The <strong>Quality Phase</strong> is the most cognitively demanding portion of an expert craft. The objective is to reach <strong>11 stacks of Inner Quiet</strong> while preserving CP and durability. This phase rewards pattern recognition rather than speed.</p>
+
+<pre><code class="language-mermaid">graph LR
+A[Inner Quiet not active] --&gt; B[Apply Inner Quiet]
+B --&gt; C{Check Condition}
+
+C --&gt;|Normal or Malleable| D[Prudent Touch]
+C --&gt;|Centered| D
+C --&gt;|Sturdy| D
+C --&gt;|Pliant| E[Manipulation]
+C --&gt;|Primed| F[Innovation]
+C --&gt;|Good| G[Precise Touch]
+
+G --&gt; H{Inner Quiet at 11?}
+H --&gt;|No| C
+H --&gt;|Yes| I[Prepare for Cash-Out]
+</code></pre>
+
+<hr />
+
+<h2 id="quality-spending-heuristic">Quality Spending Heuristic</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>Recommended Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Neutral or poor condition</td>
+      <td>Setup or stabilize</td>
+    </tr>
+    <tr>
+      <td>Favorable condition + CP buffer</td>
+      <td>High-impact quality</td>
+    </tr>
+    <tr>
+      <td>Low CP, high durability</td>
+      <td>Guaranteed value</td>
+    </tr>
+    <tr>
+      <td>Low durability</td>
+      <td>Stop gambling</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Quality is not accumulated continuously. It is harvested selectively.</p>
+
+<hr />
+
+<h2 id="progress-management">Progress Management</h2>
+
+<p>Progress should be advanced deliberately. Overshooting progress is a common and costly error.</p>
+
+<pre><code class="language-mermaid">graph LR
+A[Progress Behind] --&gt; B[Use Progress Action]
+B --&gt; C[Re-evaluate Progress]
+
+A --&gt;|Malleable| D[Strong Progress Action]
+D --&gt; C
+
+C --&gt; E{Near Completion?}
+E --&gt;|No| A
+E --&gt;|Yes| F[Precision Progress Only]
+</code></pre>
+
+<h3 id="progress-control-thresholds">Progress Control Thresholds</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Progress State</th>
+      <th>Recommended Behavior</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Far from complete</td>
+      <td>Safe setup, condition fishing</td>
+    </tr>
+    <tr>
+      <td>Mid-range</td>
+      <td>Controlled progress advances</td>
+    </tr>
+    <tr>
+      <td>Near completion</td>
+      <td>Precision actions only</td>
+    </tr>
+    <tr>
+      <td>Finish-ready</td>
+      <td>Commit intentionally</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Overshooting progress is not a timing error. It is a planning failure.</p>
+
+<hr />
+
+<h2 id="durability-recovery">Durability Recovery</h2>
+
+<p>Durability recovery increases available decision space. Its value lies not in the recovery itself, but in what the recovered steps enable.</p>
+
+<p>Recovery without purpose frequently results in wasted resources.</p>
+
+<hr />
+
+<h2 id="failure-recovery-decision-tree">Failure Recovery Decision Tree</h2>
+
+<pre><code class="language-mermaid">graph LR
+A[Craft Destabilizing] --&gt; B{Durability Low?}
+B --&gt;|Yes| C[Recover Durability]
+B --&gt;|No| D{CP Low?}
+
+D --&gt;|Yes| E[Guaranteed Value Actions]
+D --&gt;|No| F{Progress Risk?}
+
+F --&gt;|Yes| G[Stabilize Progress]
+F --&gt;|No| H[Resume Normal Loop]
+</code></pre>
+
+<hr />
+
+<h2 id="post-endwalker-vs-ishgard-restoration-expert-crafting">Post-Endwalker vs Ishgard Restoration Expert Crafting</h2>
+
+<p>Although the mechanics of expert crafting remain consistent, the experience differs notably between the Ishgard Restoration era and post-Endwalker content.</p>
+
+<h3 id="ishgard-restoration-era">Ishgard Restoration Era</h3>
+
+<ul>
+  <li>Strict gear and meld requirements</li>
+  <li>Tight CP margins</li>
+  <li>Limited recovery tools</li>
+  <li>Failure often irreversible</li>
+</ul>
+
+<h3 id="post-endwalker-era">Post-Endwalker Era</h3>
+
+<ul>
+  <li>Higher baseline stats</li>
+  <li>Expanded recovery options</li>
+  <li>Greater tolerance for mistakes</li>
+  <li>Overconfidence becomes the primary risk</li>
+</ul>
+
+<p>The system remains intact; only the margins have widened.</p>
+
+<hr />
+
+<h2 id="common-failure-patterns">Common Failure Patterns</h2>
+
+<ul>
+  <li>Early overcommitment</li>
+  <li>Accidental progress completion</li>
+  <li>Condition tunnel vision</li>
+</ul>
+
+<h3 id="failure-diagnosis-table">Failure Diagnosis Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Symptom</th>
+      <th>Root Cause</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ran out of CP</td>
+      <td>Early overcommitment</td>
+    </tr>
+    <tr>
+      <td>Finished too early</td>
+      <td>Uncontrolled progress</td>
+    </tr>
+    <tr>
+      <td>High durability, low quality</td>
+      <td>Missed condition exploitation</td>
+    </tr>
+    <tr>
+      <td>Sudden collapse</td>
+      <td>No recovery buffer</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="practice-and-improvement">Practice and Improvement</h2>
+
+<p>Improvement comes from post-run analysis rather than repetition.</p>
+
+<p>After each failure, identify:</p>
+<ul>
+  <li>Which resource failed first</li>
+  <li>Why recovery was no longer possible</li>
+</ul>
+
+<hr />
+
+<h2 id="closing-thoughts">Closing Thoughts</h2>
+
+<p>Expert crafting is not designed to be comfortable. It exists to reward patience, awareness, and restraint.</p>
+
+<p>When the craft feels difficult, it is functioning as intended.</p>
+
+<p>Mastery comes when the process feels conversational rather than chaotic.</p>
+
+<hr />
+
+<p><em>This guide focuses on system understanding rather than patch-specific rotations.</em></p>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="expert crafting" /><category term="conditions" /><category term="crafting guide" /><category term="endwalker" /><summary type="html"><![CDATA[FFXIV expert crafting explained: what makes a craft expert, condition usage matrix, and principles for adaptation over memorization.]]></summary></entry><entry><title type="html">FFXIV All Worlds Maintenance Feb 4–5 — Schedule (ET, CT, MT, PT)</title><link href="https://zodiarksembrace.com/news/2026/02/03/all-worlds-maintenance-feb-4/" rel="alternate" type="text/html" title="FFXIV All Worlds Maintenance Feb 4–5 — Schedule (ET, CT, MT, PT)" /><published>2026-02-03T00:00:00+00:00</published><updated>2026-02-03T00:00:00+00:00</updated><id>https://zodiarksembrace.com/news/2026/02/03/all-worlds-maintenance-feb-4</id><content type="html" xml:base="https://zodiarksembrace.com/news/2026/02/03/all-worlds-maintenance-feb-4/"><![CDATA[<h2 id="all-worlds-maintenance-schedule">All Worlds Maintenance schedule</h2>
+<p>|Time Zone|Starting Time|Ending Time|
+|—|—|—|
+|ET|2026-02-05 00:00|2026-02-05 05:00|
+|CT|2026-02-04 23:00|2026-02-05 04:00|
+|MT|2026-02-04 22:00|2026-02-05 03:00|
+|PT|2026-02-04 21:00|2026-02-05 02:00|</p>
+
+<h2 id="quick-checklist">Quick checklist</h2>
+<ul>
+  <li>Plan roulettes and weekly resets around the window (<em>Savage Raids, Deep Dungeon runs, etc.</em>)</li>
+  <li>Wrap up any activities (<em>ventures, crafting in progress, dungeons</em>)</li>
+  <li>Log out in a safe area before downtime (<em>I recommend the nearest inn room!</em>)</li>
+  <li>Expect Companion app and Mogstation services to be unavailable</li>
+</ul>
+
+<h2 id="source">Source</h2>
+<p><a href="https://na.finalfantasyxiv.com/lodestone/news/detail/c76a3027b6fc32bdeeb80a281f2e201ed8a7881a">Read the full announcement on the Final Fantasy XIV Lodestone</a></p>]]></content><author><name>Sarah Copeland</name></author><category term="news" /><category term="ffxiv" /><category term="maintenance" /><category term="all-worlds" /><category term="downtime" /><category term="lodestone" /><summary type="html"><![CDATA[FFXIV All Worlds Maintenance Feb 4: start and end times in ET, CT, MT, PT. Downtime checklist and Lodestone announcement link.]]></summary></entry><entry><title type="html">Pilgrims Traverse 1-20 Guide — FFXIV Dawntrail Deep Dungeon Floorset</title><link href="https://zodiarksembrace.com/systems/2025/02/03/PT_1-20_Floorset_Guide/" rel="alternate" type="text/html" title="Pilgrims Traverse 1-20 Guide — FFXIV Dawntrail Deep Dungeon Floorset" /><published>2025-02-03T17:00:00+00:00</published><updated>2025-02-03T17:00:00+00:00</updated><id>https://zodiarksembrace.com/systems/2025/02/03/PT_1-20_Floorset_Guide</id><content type="html" xml:base="https://zodiarksembrace.com/systems/2025/02/03/PT_1-20_Floorset_Guide/"><![CDATA[<h1 id="deep-dungeon-pt-1-20--floorset-guide">Deep Dungeon PT 1-20 — Floorset Guide</h1>
+
+<p>This guide covers <strong>Floors 1–20</strong> of Pilgrims Traverse, split into two difficulty bands. Early floors introduce mechanics safely, while Floors 11–20 escalate damage, enemy density, and mimic risk.</p>
+
+<hr />
+
+<h2 id="pt-1-10-overview">PT 1-10 Overview</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Floors</th>
+      <th>Rooms</th>
+      <th>Enemies</th>
+      <th>Chests</th>
+      <th>Mimics</th>
+      <th>Hoard Reward</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-10</td>
+      <td>3-6</td>
+      <td>2-3</td>
+      <td>4-6</td>
+      <td>Bronze chests on 7-10</td>
+      <td>Sack of Silvered Light</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Respawn Timer:</strong> 1 minute</p>
+
+<h3 id="key-notes">Key Notes</h3>
+
+<ul>
+  <li>Floors <strong>1-6</strong> have <strong>no bronze chests</strong>, therefore <strong>no mimics</strong>.</li>
+  <li>Floors 1-6 do not drop:
+    <ul>
+      <li>Alteration</li>
+      <li>Purity</li>
+      <li>Serenity</li>
+      <li>Purification</li>
+      <li>Raising</li>
+      <li>Devotion</li>
+    </ul>
+  </li>
+  <li>Silver chests can drop incense starting on Floor 1.</li>
+  <li>Pomanders of <strong>Affluence</strong>, <strong>Flight</strong>, and <strong>Alteration</strong> do not drop on Floor 9.</li>
+  <li>Bronze chests in this set do <strong>not</strong> drop potsherds.</li>
+</ul>
+
+<p>Early floors can hurt through overlapping AoEs but rarely kill outright. Mimic <em>Deathtrap</em> is the only lethal mechanic introduced here and only appears later in the set.</p>
+
+<hr />
+
+<h2 id="pt-1-10-enemy-highlights">PT 1-10 Enemy Highlights</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Enemy</th>
+      <th>Floors</th>
+      <th>Agro</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Traverse Morpho</td>
+      <td>1-2</td>
+      <td>Sight</td>
+      <td>AoE <em>Incubus</em> inflicts Sleep</td>
+    </tr>
+    <tr>
+      <td>Traverse Echevore</td>
+      <td>1-3</td>
+      <td>Sight</td>
+      <td>Line AoE <em>Leafcutter</em></td>
+    </tr>
+    <tr>
+      <td>Traverse Shrub (Patrol)</td>
+      <td>1-3</td>
+      <td>Sight</td>
+      <td>Patrol with line AoE</td>
+    </tr>
+    <tr>
+      <td>Traverse Phooka</td>
+      <td>1-4</td>
+      <td>Sight</td>
+      <td>Interruptible <em>Tornado</em></td>
+    </tr>
+    <tr>
+      <td>Traverse Hawker</td>
+      <td>2-5</td>
+      <td>Sight</td>
+      <td>Fast mover</td>
+    </tr>
+    <tr>
+      <td>Traverse Moss Fungus</td>
+      <td>3-6</td>
+      <td>Proximity</td>
+      <td>Spores and slow effects</td>
+    </tr>
+    <tr>
+      <td>Traverse Lorikeet</td>
+      <td>4-7</td>
+      <td>Sight</td>
+      <td>Dive AoEs</td>
+    </tr>
+    <tr>
+      <td>Traverse Rowan</td>
+      <td>5-8</td>
+      <td>Sight</td>
+      <td>Cleaves</td>
+    </tr>
+    <tr>
+      <td>Traverse Clematis</td>
+      <td>6-9</td>
+      <td>Proximity</td>
+      <td>Point-blank AoE</td>
+    </tr>
+    <tr>
+      <td>Traverse Killer Bee</td>
+      <td>7-10</td>
+      <td>Proximity</td>
+      <td>Poison stacks</td>
+    </tr>
+    <tr>
+      <td>Traverse Rosebear</td>
+      <td>8-10</td>
+      <td>Proximity</td>
+      <td>High physical damage</td>
+    </tr>
+    <tr>
+      <td>Traverse Basket</td>
+      <td>9-10</td>
+      <td>Sight</td>
+      <td>Summons adds</td>
+    </tr>
+    <tr>
+      <td>Traverse Etainmoth</td>
+      <td>9-10</td>
+      <td>Proximity</td>
+      <td>Interruptible gust AoE</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Most enemies here are vulnerable to bind, heavy, sleep, slow, and stun.</p>
+
+<hr />
+
+<h2 id="pt-11-20-overview">PT 11-20 Overview</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Floors</th>
+      <th>Rooms</th>
+      <th>Enemies</th>
+      <th>Chests</th>
+      <th>Mimics</th>
+      <th>Hoard Reward</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11-20</td>
+      <td>3-6</td>
+      <td>2-3</td>
+      <td>4-6</td>
+      <td>Bronze chests 11-19</td>
+      <td>Sack of Silvered Light</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Respawn Timer:</strong> 1 minute</p>
+
+<h3 id="key-notes-1">Key Notes</h3>
+
+<ul>
+  <li>Mimics can appear from bronze chests on Floors <strong>11-19</strong>.</li>
+  <li>Floors <strong>11-13</strong> do <strong>not</strong> drop potsherds from bronze chests.</li>
+  <li>Pomanders of <strong>Affluence</strong>, <strong>Flight</strong>, and <strong>Alteration</strong> do not drop on Floor 19.</li>
+  <li>Damage ramps significantly compared to PT 1-10.</li>
+</ul>
+
+<p>This floorset introduces more patrols, sound-based agro, tighter room spacing, and higher punishment for mistakes.</p>
+
+<hr />
+
+<h2 id="pt-11-20-enemy-highlights">PT 11-20 Enemy Highlights</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Enemy</th>
+      <th>Floors</th>
+      <th>Agro</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Traverse Puck (Tenaga)</td>
+      <td>11-12</td>
+      <td>Sound</td>
+      <td>Line AoE</td>
+    </tr>
+    <tr>
+      <td>Forgiven Ignorance (Miteling)</td>
+      <td>11-13</td>
+      <td>Sight</td>
+      <td>Knockback line</td>
+    </tr>
+    <tr>
+      <td>Traverse Tot Aevis (Patrol)</td>
+      <td>11-13</td>
+      <td>Sight</td>
+      <td>Conal AoE</td>
+    </tr>
+    <tr>
+      <td>Forgiven Conformity (Hound)</td>
+      <td>11-14</td>
+      <td>Sight</td>
+      <td>Fast autos</td>
+    </tr>
+    <tr>
+      <td>Traverse Peaseblossom</td>
+      <td>13-15</td>
+      <td>Sight</td>
+      <td>Circular AoE</td>
+    </tr>
+    <tr>
+      <td>Forgiven Folly (Mite)</td>
+      <td>14-15</td>
+      <td>Sight</td>
+      <td>Point-blank AoE</td>
+    </tr>
+    <tr>
+      <td>Forgiven Deceit (Patrol)</td>
+      <td>14-16</td>
+      <td>Sight</td>
+      <td>Conal fire</td>
+    </tr>
+    <tr>
+      <td>Traverse Topiary</td>
+      <td>15-17</td>
+      <td>Sight</td>
+      <td>Instant attacks</td>
+    </tr>
+    <tr>
+      <td>Forgiven Disobedience (Dzo)</td>
+      <td>16-17</td>
+      <td>Sight</td>
+      <td>Line charge</td>
+    </tr>
+    <tr>
+      <td>Forgiven Complacency</td>
+      <td>16-19</td>
+      <td>Sight</td>
+      <td>Shadow AoE</td>
+    </tr>
+    <tr>
+      <td>Forgiven Contempt (Patrol)</td>
+      <td>17-19</td>
+      <td>Sight</td>
+      <td>Fire breath</td>
+    </tr>
+    <tr>
+      <td>Forgiven Conceit</td>
+      <td>18-19</td>
+      <td>Sight</td>
+      <td>Heavy conal</td>
+    </tr>
+    <tr>
+      <td>Forgiven Violence</td>
+      <td>18-19</td>
+      <td>Sight</td>
+      <td>High damage AoE</td>
+    </tr>
+    <tr>
+      <td>Mimic</td>
+      <td>11-19</td>
+      <td>Proximity</td>
+      <td><em>Deathtrap</em> on chest open</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Enemy telegraphs are faster and overlap more frequently than PT 1-10.</p>
+
+<hr />
+
+<h2 id="strategy-summary">Strategy Summary</h2>
+
+<h3 id="pt-1-10">PT 1-10</h3>
+<ul>
+  <li>Learn enemy tells and spacing.</li>
+  <li>Open chests freely on Floors 1-6.</li>
+  <li>Save mitigation for Floors 7-10 if mimics appear.</li>
+</ul>
+
+<h3 id="pt-11-20">PT 11-20</h3>
+<ul>
+  <li>Treat every bronze chest as dangerous.</li>
+  <li>Track patrol paths before pulling.</li>
+  <li>Save utility pomanders ahead of Floor 19.</li>
+  <li>Interrupt or stun aggressively to reduce damage spikes.</li>
+</ul>
+
+<hr />]]></content><author><name>Sarah Copeland</name></author><category term="systems" /><category term="ffxiv" /><category term="pilgrims traverse" /><category term="deep dungeon" /><category term="dawntrail" /><category term="floorset" /><category term="floors 1-20" /><summary type="html"><![CDATA[Pilgrims Traverse floors 1-20 guide: enemy highlights, chests, mimics, and hoard rewards for FFXIV Dawntrail deep dungeon.]]></summary></entry><entry><title type="html">FFXIV Splendorous Gathering Tools Complete Guide - All 6 Stages (MIN/BTN/FSH)</title><link href="https://zodiarksembrace.com/crafting/2023/03/17/Splendorous_Gathering_Tools/" rel="alternate" type="text/html" title="FFXIV Splendorous Gathering Tools Complete Guide - All 6 Stages (MIN/BTN/FSH)" /><published>2023-03-17T14:30:00+00:00</published><updated>2023-03-17T14:30:00+00:00</updated><id>https://zodiarksembrace.com/crafting/2023/03/17/Splendorous_Gathering_Tools</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2023/03/17/Splendorous_Gathering_Tools/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>Splendorous Gathering Tools are the level 90+ relic tools for Disciples of the Land (Miner, Botanist, Fisher), introduced in patch 6.35 and expanded through Dawntrail. This comprehensive guide covers all six upgrade stages from base Splendorous Tools to the final Lodestar Tools.</p>
+
+<p><strong>What You’ll Learn:</strong></p>
+<ul>
+  <li>Unlock requirements and prerequisites</li>
+  <li>All 6 upgrade stages with locations and collectables</li>
+  <li>Efficient gathering rotations for max collectability</li>
+  <li>Fishing strategies and bait requirements</li>
+  <li>Aetherial Reduction mechanics (Stages 3-6)</li>
+</ul>
+
+<p><strong>Total Time Investment:</strong> 10-20 hours per job (faster than crafters)<br />
+<strong>Total Scrip Cost:</strong> ~2,000-3,000 Purple Scrips per job</p>
+
+<blockquote class="prompt-info">
+  <p><strong>Note:</strong> Purple Scrips are officially called “Purple Gatherer’s Scrips” for Disciples of the Land. They appear purple in-game despite sometimes being referred to as “White Scrips” in older content.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="quick-reference-all-tool-stages">Quick Reference: All Tool Stages</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Tool Name</th>
+      <th>MIN/BTN Requirement</th>
+      <th>FSH Requirement</th>
+      <th>Scrip Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Splendorous Tool</td>
+      <td>Quest reward (first free)</td>
+      <td>Quest reward</td>
+      <td>1,500 per job</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Augmented Splendorous</td>
+      <td>60 collectables (180 components)</td>
+      <td>120 fish</td>
+      <td>~600 (bait)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Crystalline Tool</td>
+      <td>70 collectables (210 components)</td>
+      <td>160 fish</td>
+      <td>~800 (bait)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Chora-Zoi’s Crystalline</td>
+      <td>~55 items → reduce (210 components)</td>
+      <td>160 fish</td>
+      <td>~800 (bait)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Brilliant Tool</td>
+      <td>~55 items → reduce (210 components)</td>
+      <td>160 fish</td>
+      <td>~800 (bait)</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Vrandtic Visionary’s</td>
+      <td>~95 items → reduce (220 components)</td>
+      <td>170 fish</td>
+      <td>~850 (bait)</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>Lodestar Tool</strong> (Final)</td>
+      <td>~95 items → reduce (220 components)</td>
+      <td>170 fish</td>
+      <td>~850 (bait)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="prerequisites--unlock">Prerequisites &amp; Unlock</h2>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Before starting, you must have:</p>
+<ul>
+  <li>Level 90+ Disciple of the Land (Miner, Botanist, or Fisher)</li>
+  <li>Completed Endwalker Main Scenario Quest</li>
+  <li>Unlocked The Crystalline Mean (Crystarium feature quest)</li>
+  <li>Unlocked Collectables system</li>
+</ul>
+
+<h3 id="unlock-quest">Unlock Quest</h3>
+
+<p><strong>Quest:</strong> An Original Improvement<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:7.8, Y:11.4)</p>
+
+<p><strong>Reward:</strong> Splendorous Coffer (contains tool for your current job)</p>
+
+<hr />
+
+<h2 id="stage-0-acquiring-base-splendorous-tools">Stage 0: Acquiring Base Splendorous Tools</h2>
+
+<h3 id="first-tool-free">First Tool (Free)</h3>
+
+<p>Complete “An Original Improvement” to receive your first Splendorous Coffer. Open it on the gathering job you want the tool for.</p>
+
+<h3 id="additional-tools-1500-purple-scrips-each">Additional Tools (1,500 Purple Scrips Each)</h3>
+
+<p>Purchase from <strong>Quinnana</strong> in The Crystarium (X:10.4, Y:7.7).</p>
+
+<p><strong>Available Tools:</strong></p>
+<ul>
+  <li>Miner: Splendorous Pickaxe</li>
+  <li>Botanist: Splendorous Hatchet</li>
+  <li>Fisher: Splendorous Fishing Rod</li>
+</ul>
+
+<p><strong>Budget Planning:</strong> If doing all 3 gathering jobs, you’ll need 3,000 Purple Scrips for base tools (first is free).</p>
+
+<hr />
+
+<h2 id="essential-gathering-information">Essential Gathering Information</h2>
+
+<h3 id="recommended-consumables">Recommended Consumables</h3>
+
+<p><strong>Food:</strong> <span data-xivapi-item="36106">Rarefied Tsai tou Vonou (HQ)</span> or any level 90+ HQ food</p>
+<ul>
+  <li>+10% GP boost</li>
+  <li>Helps meet collectability thresholds</li>
+</ul>
+
+<p><strong>GP Recovery:</strong> <span data-xivapi-item="6367">Hi-Cordial</span> or <span data-xivapi-item="27922">Cordial</span></p>
+<ul>
+  <li>Essential for continuous gathering</li>
+  <li>Keep 99 in inventory</li>
+</ul>
+
+<h3 id="collectability-requirements">Collectability Requirements</h3>
+
+<p><strong>Miner &amp; Botanist:</strong></p>
+<ul>
+  <li>Stages 1-2: Max collectability (1,000) recommended</li>
+  <li>Stages 3-6: Max collectability required for Aetherial Reduction</li>
+</ul>
+
+<p><strong>Fisher:</strong></p>
+<ul>
+  <li>Enable Collector’s Glove (Collect ability)</li>
+  <li>Higher collectability = more components per fish</li>
+</ul>
+
+<hr />
+
+<h2 id="gathering-rotations-minbtn">Gathering Rotations (MIN/BTN)</h2>
+
+<h3 id="max-collectability-rotation-400-gp">Max Collectability Rotation (400 GP)</h3>
+
+<p><strong>Use this rotation when you have 400+ GP:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>Scrutiny → Meticulous Prospector → Scrutiny → 
+Meticulous Prospector → Meticulous Prospector → Collect
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Result:</strong> 1,000 collectability guaranteed</p>
+
+<hr />
+
+<h3 id="gp-recovery-rotation-less-than-400-gp">GP Recovery Rotation (Less than 400 GP)</h3>
+
+<p><strong>Use this when waiting for GP to regenerate:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Brazen Prospector → Brazen Prospector → Brazen Prospector → Collect
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Result:</strong> Lower collectability, but keeps you gathering</p>
+
+<hr />
+
+<h3 id="hidden-items-strategy">Hidden Items Strategy</h3>
+
+<p><strong>All stages have hidden items (crystals/clusters):</strong></p>
+<ul>
+  <li>Miner: Use Luck of the Mountaineer</li>
+  <li>Botanist: Use Luck of the Pioneer</li>
+</ul>
+
+<p><strong>Pro Tip:</strong> Gather hidden items whenever they appear to conserve GP. They count toward your component total without requiring collectability rotations.</p>
+
+<hr />
+
+<h2 id="fishing-strategies">Fishing Strategies</h2>
+
+<h3 id="required-item">Required Item</h3>
+
+<p><strong>Select Bait Ball</strong> - Purchase from Quinnana for <strong>5 Purple Scrips each</strong></p>
+
+<p><strong>How many to buy:</strong></p>
+<ul>
+  <li>Stage 1: ~25 bait (120 fish needed)</li>
+  <li>Stage 2: ~35 bait (160 fish needed)</li>
+  <li>Stages 3-6: ~35 bait each (160-170 fish per stage)</li>
+</ul>
+
+<p><strong>Total for all 6 stages:</strong> ~200 bait = 1,000 Purple Scrips</p>
+
+<h3 id="fishing-rotation-for-efficiency">Fishing Rotation for Efficiency</h3>
+
+<p><strong>Before casting:</strong> Enable Collector’s Glove (Collect ability)</p>
+
+<p><strong>Optimal fishing combo:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>Identical Cast → Double Hook → Thaliak's Favor
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>With Cordials:</strong> Use Hi-Cordial between casts to maintain GP</p>
+
+<p><strong>Result:</strong> Doubles your catch rate, reducing time significantly</p>
+
+<hr />
+
+<h2 id="stage-1-augmented-splendorous-tools">Stage 1: Augmented Splendorous Tools</h2>
+
+<h3 id="quest-details">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Dedicated Tool (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:10.5, Y:7.7)<br />
+<strong>Requirement:</strong> Splendorous Tool equipped or in inventory</p>
+
+<h3 id="miner-augmented-splendorous-pickaxe">Miner: Augmented Splendorous Pickaxe</h3>
+
+<p><strong>Location:</strong> Il Mheg (X:11.0, Y:36.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Prismstone (60 items at max collectability)</li>
+  <li>Splendorous Water Shard (180 hidden items)</li>
+</ul>
+
+<p><strong>Turn-in:</strong> 180 Splendorous Miner’s Components to Quinnana</p>
+
+<p><strong>Time:</strong> 1-2 hours</p>
+
+<hr />
+
+<h3 id="botanist-augmented-splendorous-hatchet">Botanist: Augmented Splendorous Hatchet</h3>
+
+<p><strong>Location:</strong> Kholusia (X:25.0, Y:12.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Wattle Petribark (60 items at max collectability)</li>
+  <li>Splendorous Earth Shard (180 hidden items)</li>
+</ul>
+
+<p><strong>Turn-in:</strong> 180 Splendorous Botanist’s Components to Quinnana</p>
+
+<p><strong>Time:</strong> 1-2 hours</p>
+
+<hr />
+
+<h3 id="fisher-augmented-splendorous-fishing-rod">Fisher: Augmented Splendorous Fishing Rod</h3>
+
+<p><strong>Location 1:</strong> Lakeland (X:21.2, Y:29.7)</p>
+<ul>
+  <li><strong>Fish:</strong> Platinum Seahorse</li>
+  <li><strong>Components:</strong> Splendorous Fishing Rod Component</li>
+</ul>
+
+<p><strong>Location 2:</strong> Kholusia (X:16.0, Y:35.0)</p>
+<ul>
+  <li><strong>Fish:</strong> Clavekeeper</li>
+  <li><strong>Components:</strong> Splendorous Fishing Reel Component</li>
+</ul>
+
+<p><strong>Bait:</strong> Select Bait Ball (5 scrips each)</p>
+
+<p><strong>Total Needed:</strong> 120 fish (60 from each location)</p>
+
+<p><strong>Time:</strong> 1-2 hours</p>
+
+<hr />
+
+<h2 id="stage-2-crystalline-tools">Stage 2: Crystalline Tools</h2>
+
+<h3 id="quest-details-1">Quest Details</h3>
+
+<p><strong>Quest:</strong> An Adaptive Tool (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:10.5, Y:7.7)<br />
+<strong>Requirement:</strong> Augmented Splendorous Tool in inventory</p>
+
+<h3 id="miner-crystalline-pickaxe">Miner: Crystalline Pickaxe</h3>
+
+<p><strong>Location:</strong> Amh Araeng (X:28.0, Y:14.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Red Malachite (70 items at max collectability)</li>
+  <li>Adaptive Fire Crystal (210 hidden items)</li>
+</ul>
+
+<p><strong>Turn-in:</strong> 210 Adaptive Miner’s Components to Quinnana</p>
+
+<hr />
+
+<h3 id="botanist-crystalline-hatchet">Botanist: Crystalline Hatchet</h3>
+
+<p><strong>Location:</strong> Lakeland (X:34.0, Y:10.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Levin Mint (70 items at max collectability)</li>
+  <li>Adaptive Lightning Crystal (210 hidden items)</li>
+</ul>
+
+<p><strong>Turn-in:</strong> 210 Adaptive Botanist’s Components to Quinnana</p>
+
+<hr />
+
+<h3 id="fisher-crystalline-fishing-rod">Fisher: Crystalline Fishing Rod</h3>
+
+<p><strong>Location 1:</strong> Il Mheg (X:4.0, Y:22.0)</p>
+<ul>
+  <li><strong>Fish:</strong> Mirror Image</li>
+  <li><strong>Components:</strong> Adaptive Fishing Rod Component</li>
+</ul>
+
+<p><strong>Location 2:</strong> The Rak’tika Greatwood (X:7.0, Y:28.0)</p>
+<ul>
+  <li><strong>Fish:</strong> Spangled Pirarucu</li>
+  <li><strong>Components:</strong> Adaptive Fishing Reel Component</li>
+</ul>
+
+<p><strong>Bait:</strong> Select Bait Ball</p>
+
+<p><strong>Total Needed:</strong> 160 fish (80 from each location)</p>
+
+<hr />
+
+<h2 id="stage-3-chora-zois-crystalline-tools">Stage 3: Chora-Zoi’s Crystalline Tools</h2>
+
+<h3 id="quest-details-2">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool of Her Own (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi (speak to Grenoldt first to complete “The Joy of Zoi”)<br />
+<strong>Location:</strong> The Crystarium (X:10.5, Y:7.7)<br />
+<strong>Requirement:</strong> Crystalline Tool in inventory</p>
+
+<h3 id="new-mechanic-aetherial-reduction">NEW MECHANIC: Aetherial Reduction</h3>
+
+<p><strong>Stages 3-6 use Aetherial Reduction instead of direct turn-ins.</strong></p>
+
+<p><strong>How it works:</strong></p>
+<ol>
+  <li>Gather collectable at max collectability (1,000)</li>
+  <li>Right-click the collectable in your inventory</li>
+  <li>Select “Aetherial Reduction”</li>
+  <li>Receive 3-6 components per reduction</li>
+</ol>
+
+<p><strong>Why this matters:</strong> You need ~55 items to get 210 components (vs 70 items in Stage 2)</p>
+
+<hr />
+
+<h3 id="miner-chora-zois-crystalline-pickaxe">Miner: Chora-Zoi’s Crystalline Pickaxe</h3>
+
+<p><strong>Location:</strong> Lakeland (X:17.0, Y:15.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Soiled Femur (~55 items)</li>
+  <li>Custom Ice Crystal (210 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 210 Customized Miner’s Components</p>
+
+<hr />
+
+<h3 id="botanist-chora-zois-crystalline-hatchet">Botanist: Chora-Zoi’s Crystalline Hatchet</h3>
+
+<p><strong>Location:</strong> Il Mheg (X:26.0, Y:19.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Miracle Apple (~55 items)</li>
+  <li>Custom Wind Crystal (210 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 210 Customized Botanist’s Components</p>
+
+<hr />
+
+<h3 id="fisher-chora-zois-crystalline-fishing-rod">Fisher: Chora-Zoi’s Crystalline Fishing Rod</h3>
+
+<p><strong>Location 1:</strong> Amh Araeng (X:31.0, Y:32.0)</p>
+<ul>
+  <li><strong>Fish:</strong> Gold Dustfish</li>
+  <li><strong>Components:</strong> Customized Fishing Rod Component</li>
+</ul>
+
+<p><strong>Location 2:</strong> Lakeland (X:10.0, Y:38.0)</p>
+<ul>
+  <li><strong>Fish:</strong> Forgiven Melancholy</li>
+  <li><strong>Components:</strong> Customized Fishing Reel Component</li>
+</ul>
+
+<p><strong>Bait:</strong> Select Bait Ball</p>
+
+<p><strong>Total Needed:</strong> 160 fish (80 from each location)</p>
+
+<hr />
+
+<h2 id="stage-4-brilliant-tools">Stage 4: Brilliant Tools</h2>
+
+<h3 id="quest-details-3">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool without Compare (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Requirement:</strong> Chora-Zoi’s Crystalline Tool in inventory</p>
+
+<h3 id="miner-brilliant-pickaxe">Miner: Brilliant Pickaxe</h3>
+
+<p><strong>Location:</strong> Kholusia (X:33.0, Y:29.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Aurum Regis Ore (~55 items)</li>
+  <li>Brilliant Lightning Cluster (210 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 210 Brilliant Miner’s Components</p>
+
+<hr />
+
+<h3 id="botanist-brilliant-hatchet">Botanist: Brilliant Hatchet</h3>
+
+<p><strong>Location:</strong> Amh Araeng (X:18.0, Y:19.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Cloves (~55 items)</li>
+  <li>Brilliant Earth Cluster (210 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 210 Brilliant Botanist’s Components</p>
+
+<hr />
+
+<h3 id="fisher-brilliant-fishing-rod">Fisher: Brilliant Fishing Rod</h3>
+
+<p><strong>Location 1:</strong> Kholusia (X:29.4, Y:21.4)</p>
+<ul>
+  <li><strong>Fish:</strong> Oil Slick</li>
+  <li><strong>Components:</strong> Brilliant Fishing Rod Component</li>
+</ul>
+
+<p><strong>Location 2:</strong> The Tempest (X:6.0, Y:13.5)</p>
+<ul>
+  <li><strong>Fish:</strong> Gonzalo’s Grace</li>
+  <li><strong>Components:</strong> Brilliant Fishing Reel Component</li>
+</ul>
+
+<p><strong>Bait:</strong> Select Bait Ball</p>
+
+<p><strong>Total Needed:</strong> 160 fish (80 from each location)</p>
+
+<hr />
+
+<h2 id="stage-5-vrandtic-visionarys-tools">Stage 5: Vrandtic Visionary’s Tools</h2>
+
+<h3 id="quest-details-4">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool for the Ages (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi (complete “La Vie Mowen” and “Dance Like Mowen is Watching” first)<br />
+<strong>Requirement:</strong> Brilliant Tool equipped</p>
+
+<p><strong>INCREASED COMPONENT REQUIREMENT:</strong> 220 components (up from 210)</p>
+
+<h3 id="miner-vrandtic-visionarys-pickaxe">Miner: Vrandtic Visionary’s Pickaxe</h3>
+
+<p><strong>Location:</strong> Il Mheg (X:11.6, Y:10.7)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Asphaltum (~95 items)</li>
+  <li>Inspirational Wind Cluster (220 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 220 Inspirational Miner’s Components</p>
+
+<hr />
+
+<h3 id="botanist-vrandtic-visionarys-hatchet">Botanist: Vrandtic Visionary’s Hatchet</h3>
+
+<p><strong>Location:</strong> Rak’tika Greatwood (X:15.0, Y:35.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Gianthive Chip (~95 items)</li>
+  <li>Inspirational Fire Cluster (220 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 220 Inspirational Botanist’s Components</p>
+
+<hr />
+
+<h3 id="fisher-vrandtic-visionarys-fishing-rod">Fisher: Vrandtic Visionary’s Fishing Rod</h3>
+
+<p><strong>Location:</strong> The Rak’tika Greatwood (X:25.5, Y:36.7)</p>
+
+<p><strong>Special Fishing Chain (Mooch Required):</strong></p>
+<ol>
+  <li>Catch Deadwood Shadow (Powerful Hookset)</li>
+  <li>OR catch Golding (Precision Hookset)</li>
+  <li>Mooch Golding → Ronkan Bullion (Powerful Hookset)</li>
+</ol>
+
+<p><strong>Components:</strong> 170 Inspirational Fisher’s Components</p>
+
+<p><strong>Bait:</strong> Select Bait Ball</p>
+
+<p><strong>Note:</strong> This is more complex than previous stages due to mooch requirement</p>
+
+<hr />
+
+<h2 id="stage-6-lodestar-tools-final-stage">Stage 6: Lodestar Tools (Final Stage)</h2>
+
+<h3 id="quest-details-5">Quest Details</h3>
+
+<p><strong>Quest:</strong> Stand Tool, My Friend (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Requirement:</strong> Vrandtic Visionary’s Tool equipped</p>
+
+<p><strong>SAME REQUIREMENT AS STAGE 5:</strong> 220 components</p>
+
+<h3 id="miner-lodestar-pickaxe">Miner: Lodestar Pickaxe</h3>
+
+<p><strong>Location:</strong> The Tempest (X:34.0, Y:22.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Raw Onyx (~95 items)</li>
+  <li>Nightforged Ice Cluster (220 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 220 Nightforged Miner’s Components</p>
+
+<hr />
+
+<h3 id="botanist-lodestar-hatchet">Botanist: Lodestar Hatchet</h3>
+
+<p><strong>Location:</strong> The Tempest (X:37.0, Y:13.0)</p>
+
+<p><strong>Collectables:</strong></p>
+<ul>
+  <li>Connoisseur’s Glimshroom (~95 items)</li>
+  <li>Nightforged Water Cluster (220 hidden items)</li>
+</ul>
+
+<p><strong>Reduce for:</strong> 220 Nightforged Botanist’s Components</p>
+
+<hr />
+
+<h3 id="fisher-lodestar-fishing-rod">Fisher: Lodestar Fishing Rod</h3>
+
+<p><strong>Location:</strong> Il Mheg (X:35.0, Y:26.0)</p>
+
+<p><strong>Special Fishing Mechanic (Fisher’s Intuition):</strong></p>
+<ol>
+  <li>Catch 3x Little Bounty (normal fishing)</li>
+  <li>This triggers Fisher’s Intuition buff</li>
+  <li>With buff active, catch Saint Fathric’s Face</li>
+</ol>
+
+<p><strong>Components:</strong> 170 Nightforged Fisher’s Components</p>
+
+<p><strong>Bait:</strong> Select Bait Ball</p>
+
+<p><strong>Congratulations! You now have your Lodestar Tool - the final stage of the Splendorous gathering relic chain.</strong></p>
+
+<hr />
+
+<h2 id="efficient-purple-scrip-farming-gatherers">Efficient Purple Scrip Farming (Gatherers)</h2>
+
+<h3 id="custom-deliveries-best-passive-method">Custom Deliveries (Best Passive Method)</h3>
+
+<p><strong>Weekly Reset:</strong> Tuesday at 8 AM server time</p>
+
+<p><strong>NPCs:</strong> M’naago, Adkiragh, Kai-Shirr, Kurenai, Ameliance, etc.</p>
+
+<p><strong>Scrips per Week:</strong> 1,500-2,000 (varies by satisfaction bonus)</p>
+
+<p><strong>Time Investment:</strong> 30-60 minutes per week</p>
+
+<p><strong>Strategy:</strong> Custom Deliveries alone can complete a gathering relic every 2-3 weeks with zero grinding.</p>
+
+<h3 id="collectable-gathering-active-farming">Collectable Gathering (Active Farming)</h3>
+
+<p><strong>Any level 90+ collectable</strong> works. Choose based on:</p>
+<ul>
+  <li>Node location convenience</li>
+  <li>Short respawn timers</li>
+  <li>Easy rotation requirements</li>
+</ul>
+
+<p><strong>Top Gathering Spots:</strong></p>
+<ul>
+  <li>Labyrinthos nodes (central, clustered)</li>
+  <li>Elpis nodes (flying mount friendly)</li>
+  <li>Ultima Thule nodes (high-level items)</li>
+</ul>
+
+<hr />
+
+<h2 id="cost-breakdown-complete-tool-progression">Cost Breakdown: Complete Tool Progression</h2>
+
+<h3 id="per-job-cost-scrips">Per Job Cost (Scrips)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Miner/Botanist</th>
+      <th>Fisher (Bait)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Tool</td>
+      <td>1,500</td>
+      <td>1,500</td>
+    </tr>
+    <tr>
+      <td>Augmented</td>
+      <td>0 (no scrips)</td>
+      <td>~125 (25 bait)</td>
+    </tr>
+    <tr>
+      <td>Crystalline</td>
+      <td>0 (no scrips)</td>
+      <td>~175 (35 bait)</td>
+    </tr>
+    <tr>
+      <td>Chora-Zoi’s</td>
+      <td>0 (no scrips)</td>
+      <td>~175 (35 bait)</td>
+    </tr>
+    <tr>
+      <td>Brilliant</td>
+      <td>0 (no scrips)</td>
+      <td>~175 (35 bait)</td>
+    </tr>
+    <tr>
+      <td>Vrandtic Visionary’s</td>
+      <td>0 (no scrips)</td>
+      <td>~175 (35 bait)</td>
+    </tr>
+    <tr>
+      <td>Lodestar</td>
+      <td>0 (no scrips)</td>
+      <td>~175 (35 bait)</td>
+    </tr>
+    <tr>
+      <td><strong>TOTAL</strong></td>
+      <td><strong>~1,500</strong></td>
+      <td><strong>~2,500</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Fisher is more scrip-intensive due to bait costs.</strong></p>
+
+<hr />
+
+<h2 id="tips--strategies">Tips &amp; Strategies</h2>
+
+<h3 id="efficient-progression-path-minerbotanist">Efficient Progression Path (Miner/Botanist)</h3>
+
+<p><strong>Week 1:</strong> Custom Deliveries, buy base tool<br />
+<strong>Week 2:</strong> Complete Stages 1-2 (direct turn-ins)<br />
+<strong>Week 3:</strong> Complete Stages 3-4 (aetherial reduction)<br />
+<strong>Week 4:</strong> Complete Stages 5-6 (higher volume reduction)</p>
+
+<p><strong>Total Time:</strong> 4 weeks casually, 1 week if grinding</p>
+
+<h3 id="fisher-optimization">Fisher Optimization</h3>
+
+<p><strong>Buy bait in bulk:</strong> Purchase 200 Select Bait Balls at start (1,000 scrips)</p>
+
+<p><strong>Use GP efficiently:</strong></p>
+<ul>
+  <li>Identical Cast → Double Hook combo</li>
+  <li>Thaliak’s Favor for rare fish</li>
+  <li>Hi-Cordials between casts</li>
+</ul>
+
+<p><strong>Fish multiple locations:</strong> Alternate between rod/reel component fish to prevent burnout</p>
+
+<h3 id="multi-job-strategy">Multi-Job Strategy</h3>
+
+<p><strong>Do all 3 gathering jobs together:</strong></p>
+<ul>
+  <li>Buy all base tools (3,000 scrips)</li>
+  <li>Progress through stages simultaneously</li>
+  <li>Share food and cordials across jobs</li>
+</ul>
+
+<p><strong>Benefits:</strong></p>
+<ul>
+  <li>Efficient scrip usage</li>
+  <li>Variety prevents burnout</li>
+  <li>Faster overall completion</li>
+</ul>
+
+<hr />
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="i-cant-hit-max-collectability-1000">“I can’t hit max collectability (1,000)”</h3>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Use <span data-xivapi-item="36106">HQ food</span> for stat boost</li>
+  <li>Verify you have level 90 left-side gathering gear</li>
+  <li>Use the 400 GP rotation (not the recovery rotation)</li>
+  <li>Meld gathering stat materia if needed</li>
+</ul>
+
+<h3 id="aetherial-reduction-only-gives-3-components">“Aetherial Reduction only gives 3 components”</h3>
+
+<p><strong>This is RNG:</strong></p>
+<ul>
+  <li>3-6 components per reduction is normal</li>
+  <li>Average is ~4 components</li>
+  <li>Plan for ~55-95 items to get required components</li>
+  <li>Hidden items don’t require reduction</li>
+</ul>
+
+<h3 id="fishing-is-taking-forever">“Fishing is taking forever”</h3>
+
+<p><strong>Speed improvements:</strong></p>
+<ul>
+  <li>Always use Identical Cast → Double Hook</li>
+  <li>Use Thaliak’s Favor for stubborn fish</li>
+  <li>Keep Hi-Cordials stocked (recover GP faster)</li>
+  <li>Food buff helps catch rate</li>
+</ul>
+
+<h3 id="i-cant-find-the-gathering-node">“I can’t find the gathering node”</h3>
+
+<p><strong>Check:</strong></p>
+<ul>
+  <li>Correct expansion zone (Shadowbringers zones)</li>
+  <li>Exact coordinates (not approximate)</li>
+  <li>Time of day (some nodes are time-gated)</li>
+  <li>Flying unlocked in zone</li>
+</ul>
+
+<hr />
+
+<h2 id="achievement-rewards">Achievement Rewards</h2>
+
+<p><strong>Completing all Lodestar Gathering Tools grants:</strong></p>
+<ul>
+  <li>“Lodestar Luminary” title (all 11 DoH/DoL tools completed)</li>
+  <li>Glamour options for all tool stages</li>
+  <li>Satisfaction of completing endgame gathering relics</li>
+</ul>
+
+<hr />
+
+<h2 id="comparison-gathering-vs-crafting-relics">Comparison: Gathering vs Crafting Relics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Aspect</th>
+      <th>Gathering</th>
+      <th>Crafting</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Time per job</td>
+      <td>10-20 hours</td>
+      <td>15-30 hours</td>
+    </tr>
+    <tr>
+      <td>Scrip cost</td>
+      <td>1,500-2,500</td>
+      <td>10,000-11,000</td>
+    </tr>
+    <tr>
+      <td>Difficulty</td>
+      <td>Easy (rotations simple)</td>
+      <td>Medium (macros required stages 5-6)</td>
+    </tr>
+    <tr>
+      <td>GP/CP management</td>
+      <td>Easy (cordials)</td>
+      <td>Medium (food/tinctures)</td>
+    </tr>
+    <tr>
+      <td>Stages 1-2</td>
+      <td>Direct turn-ins</td>
+      <td>Direct turn-ins</td>
+    </tr>
+    <tr>
+      <td>Stages 3-6</td>
+      <td>Aetherial Reduction</td>
+      <td>Crafting collectables</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Gathering relics are significantly faster and cheaper than crafting relics.</strong></p>
+
+<hr />
+
+<h2 id="related-guides">Related Guides</h2>
+
+<ul>
+  <li><a href="#">FFXIV Splendorous Crafting Tools Guide</a> - Complete DoH relic guide</li>
+  <li><a href="#">FFXIV Custom Deliveries Guide</a> - Maximize scrip income</li>
+  <li><a href="#">FFXIV Gathering Rotations Guide</a> - Optimize collectability</li>
+</ul>
+
+<hr />
+
+<p><strong>The Splendorous/Lodestar Gathering Tools are the fastest relics in FFXIV to complete. Use Custom Deliveries for passive progress, and you’ll have all three gathering relics done in a month with minimal active grinding!</strong></p>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="splendorous-tools" /><category term="lodestar-tools" /><category term="gathering-relics" /><category term="miner" /><category term="botanist" /><category term="fisher" /><category term="endwalker" /><category term="dawntrail" /><summary type="html"><![CDATA[Complete guide to Splendorous Gathering Tools (Lodestar Tools) for FFXIV gatherers. Step-by-step progression from base tools through all 6 upgrade stages with rotations, locations, and collectables.]]></summary></entry><entry><title type="html">Eureka Orthos Guide — FFXIV Deep Dungeon Walkthrough (Floors 1-100)</title><link href="https://zodiarksembrace.com/systems/2023/03/16/EO_Guide/" rel="alternate" type="text/html" title="Eureka Orthos Guide — FFXIV Deep Dungeon Walkthrough (Floors 1-100)" /><published>2023-03-16T22:24:00+00:00</published><updated>2023-03-16T22:24:00+00:00</updated><id>https://zodiarksembrace.com/systems/2023/03/16/EO_Guide</id><content type="html" xml:base="https://zodiarksembrace.com/systems/2023/03/16/EO_Guide/"><![CDATA[<h1 id="delving-into-eureka-orthos">Delving into Eureka Orthos</h1>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Quest</th>
+      <th>NPC</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/quest/0904c99e110/">Delve Into Myth</a></td>
+      <td>Koh Rabntah</td>
+      <td>Mor Dhona (X:21.8 Y:8.1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote class="prompt-tip">
+  <p><strong>This Quest Has Prerequisites</strong>:</p>
+  <ul>
+    <li>Level 81+ Disciple of War or Magic</li>
+    <li><a href="https://na.finalfantasyxiv.com/lodestone/playguide/db/quest/52a65d1961d/">Endwalker</a></li>
+    <li><a href="https://na.finalfantasyxiv.com/lodestone/playguide/contentsguide/deepdungeon/#:~:text=Unlocking%20Floor%2051%20and%20Beyond&amp;text=Players%20must%20first%20complete%20the%20quest%20%22The%20House%20That%20Death,the%20Palace%20of%20the%20Dead">What Lies Beneath</a></li>
+  </ul>
+</blockquote>
+
+<h2 id="preparing-for-a-run">Preparing for a Run</h2>
+
+<h3 id="what-job-to-play">What Job To Play?</h3>
+
+<p>Melee DPS seem to have it easier in this variation of Deep Dungeons. Particularly, Reaper has been very entertaining to play on.</p>
+
+<h3 id="items">Items</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+      <th>How to Obtain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hyper Potion (HQ)</td>
+      <td>Heal for 25% of max HP (up to 11000 HP), Shares a cooldown with Tinctures</td>
+      <td>Crafting, Market Board, or random Eureka Orthos Drop</td>
+    </tr>
+    <tr>
+      <td>Orthos Potion</td>
+      <td> </td>
+      <td>1x Orthos Aetherpool Fragment for 20 Potions</td>
+    </tr>
+    <tr>
+      <td>Tincture of XXX</td>
+      <td>Boost your overall damage for a short time, Shares a cooldown with Hyper Potions</td>
+      <td>Crafting or Market Board</td>
+    </tr>
+    <tr>
+      <td>Food (HQ)</td>
+      <td> </td>
+      <td>Crafting or Market Board</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="strategy">Strategy</h2>
+
+<h3 id="floors-1---10">Floors 1 - 10</h3>
+
+<h4 id="bestiary">Bestiary</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Mob</th>
+      <th>Aggro Type</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Behemoth</td>
+      <td>Line of Sight</td>
+      <td>Casts Ecliptic Meteor at ~&lt;30%</td>
+    </tr>
+    <tr>
+      <td>Bhoot</td>
+      <td>Can Sense Player</td>
+      <td>Can Stun/Interrupt Disease</td>
+    </tr>
+    <tr>
+      <td>Grenade</td>
+      <td>Line of Sight</td>
+      <td>Late Telegraph Explosion with a Long Cast - Make Sure to Dodge!</td>
+    </tr>
+    <tr>
+      <td>Water Sprite</td>
+      <td>Proximity</td>
+      <td>Casts Water on GCD, Really annoying in a Group</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="floors-11---20">Floors 11 - 20</h3>
+
+<h3 id="floors-21---30">Floors 21 - 30</h3>
+
+<h3 id="floors-31---40">Floors 31 - 40</h3>
+
+<h3 id="floors-41---50">Floors 41 - 50</h3>
+
+<h3 id="floors-51---60">Floors 51 - 60</h3>
+
+<h3 id="floors-61---70">Floors 61 - 70</h3>
+
+<h3 id="floors-71---80">Floors 71 - 80</h3>
+
+<h3 id="floors-81---90">Floors 81 - 90</h3>
+
+<h3 id="floors-91---100">Floors 91 - 100</h3>]]></content><author><name>Sarah Copeland</name></author><category term="systems" /><category term="ffxiv" /><category term="eureka orthos" /><category term="deep dungeon" /><category term="endwalker" /><category term="walkthrough" /><category term="strategy" /><summary type="html"><![CDATA[Complete Eureka Orthos deep dungeon guide for FFXIV: unlock, prep, job tips, items, and floor-by-floor strategy for Endwalker deep dungeon.]]></summary></entry><entry><title type="html">FFXIV Splendorous Tools Complete Guide - All 6 Stages (Crafter &amp;amp; Gatherer Relics)</title><link href="https://zodiarksembrace.com/crafting/2023/03/16/Splendorous_Tools/" rel="alternate" type="text/html" title="FFXIV Splendorous Tools Complete Guide - All 6 Stages (Crafter &amp;amp; Gatherer Relics)" /><published>2023-03-16T14:27:00+00:00</published><updated>2023-03-16T14:27:00+00:00</updated><id>https://zodiarksembrace.com/crafting/2023/03/16/Splendorous_Tools</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2023/03/16/Splendorous_Tools/"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>Splendorous Tools are the level 90+ relic tools for Disciples of the Hand and Land, introduced in patch 6.35 and expanded through Dawntrail. This comprehensive guide covers all six upgrade stages from base Splendorous Tools to the final Lodestar Tools.</p>
+
+<p><strong>What You’ll Learn:</strong></p>
+<ul>
+  <li>Unlock requirements and prerequisites</li>
+  <li>All 6 upgrade stages with materials and costs</li>
+  <li>Efficient scrip farming strategies</li>
+  <li>Crafting macros for each stage</li>
+  <li>Gathering collectables and locations</li>
+</ul>
+
+<p><strong>Total Time Investment:</strong> 15-30 hours per job (varies by playstyle)<br />
+<strong>Total Scrip Cost:</strong> ~4,000-6,000 Purple Scrips per job</p>
+
+<blockquote class="prompt-info">
+  <p><strong>Note:</strong> Purple Scrips are officially called “Purple Crafter’s Scrips” (for DoH) and “Purple Gatherer’s Scrips” (for DoL). They appear purple in-game despite sometimes being referred to as “White Scrips” in older content.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="quick-reference-all-tool-stages">Quick Reference: All Tool Stages</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Tool Name</th>
+      <th>Requirements</th>
+      <th>Scrip Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>Splendorous Tool</td>
+      <td>Quest reward (first free)</td>
+      <td>1,500 per job</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Augmented Splendorous</td>
+      <td>20 perfect crafts (60 components)</td>
+      <td>~1,000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Crystalline Tool</td>
+      <td>30 perfect crafts (90 components)</td>
+      <td>~1,500</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Chora-Zoi’s Crystalline</td>
+      <td>30 perfect crafts (90 components)</td>
+      <td>~1,500</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Brilliant Tool</td>
+      <td>30 perfect crafts (90 components)</td>
+      <td>~2,000</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Vrandtic Visionary’s</td>
+      <td>20 crafts (60 components)</td>
+      <td>~1,500</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>Lodestar Tool</strong> (Final)</td>
+      <td>20 crafts (60 components)</td>
+      <td>~2,000</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="prerequisites--unlock">Prerequisites &amp; Unlock</h2>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Before starting, you must have:</p>
+<ul>
+  <li>Level 90+ Disciple of the Hand or Land</li>
+  <li>Completed Endwalker Main Scenario Quest</li>
+  <li>Unlocked The Crystalline Mean (Crystarium feature quest)</li>
+  <li>Completed “The Boutique Always Wins” quest</li>
+</ul>
+
+<h3 id="unlock-quest">Unlock Quest</h3>
+
+<p><strong>Quest:</strong> An Original Improvement<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:7.8, Y:11.4)</p>
+
+<p><strong>Reward:</strong> Splendorous Coffer (contains tool for your current job)</p>
+
+<hr />
+
+<h2 id="stage-0-acquiring-base-splendorous-tools">Stage 0: Acquiring Base Splendorous Tools</h2>
+
+<h3 id="first-tool-free">First Tool (Free)</h3>
+
+<p>Complete “An Original Improvement” to receive your first Splendorous Coffer. Open it on the job you want the tool for.</p>
+
+<h3 id="additional-tools-1500-purple-scrips-each">Additional Tools (1,500 Purple Scrips Each)</h3>
+
+<p>Purchase from <strong>Quinnana</strong> in The Crystarium (X:10.4, Y:7.7).</p>
+
+<p><strong>Available Tools:</strong></p>
+<ul>
+  <li>Carpenter: Splendorous Saw</li>
+  <li>Blacksmith: Splendorous Cross-pein Hammer</li>
+  <li>Armorer: Splendorous Raising Hammer</li>
+  <li>Goldsmith: Splendorous Chaser Hammer</li>
+  <li>Leatherworker: Splendorous Head Knife</li>
+  <li>Weaver: Splendorous Needle</li>
+  <li>Alchemist: Splendorous Alembic</li>
+  <li>Culinarian: Splendorous Frypan</li>
+  <li>Miner: Splendorous Pickaxe</li>
+  <li>Botanist: Splendorous Hatchet</li>
+  <li>Fisher: Splendorous Fishing Rod</li>
+</ul>
+
+<p><strong>Budget Planning:</strong> If doing all 11 jobs, you’ll need 15,000 Purple Scrips just for base tools (first is free).</p>
+
+<hr />
+
+<h2 id="stage-1-augmented-splendorous-tools">Stage 1: Augmented Splendorous Tools</h2>
+
+<h3 id="quest-details">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Dedicated Tool (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:10.5, Y:7.7)<br />
+<strong>Requirement:</strong> Splendorous Tool equipped or in inventory</p>
+
+<h3 id="crafters-materials--strategy">Crafters: Materials &amp; Strategy</h3>
+
+<p><strong>Objective:</strong> Craft 20 collectables with max collectability</p>
+
+<p><strong>Turn-in:</strong> 60 Splendorous Components to Quinnana</p>
+
+<p><strong>Materials per Craft:</strong></p>
+<ul>
+  <li>1x Select Material (50 Purple Scrips from Quinnana)</li>
+  <li>2x Gatherable Material</li>
+</ul>
+
+<p><strong>Total Cost:</strong> ~1,000 Purple Scrips per job.</p>
+
+<p><strong>Pro Tip:</strong> Use <span data-xivapi-item="36106">Rarefied Tsai tou Vonou</span> or similar HQ food to boost stats. The Trained Eye ability guarantees max collectability instantly.</p>
+
+<h4 id="crafter-recipes-by-job">Crafter Recipes by Job</h4>
+
+<p><strong>Carpenter:</strong> Connoisseur’s Chair</p>
+<ul>
+  <li>1x Select Ironwood Lumber (50 scrips)</li>
+  <li>2x Ironwood Log</li>
+</ul>
+
+<p><strong>Blacksmith:</strong> Connoisseur’s Wall Lantern</p>
+<ul>
+  <li>1x Select Manganese Ingot (50 scrips)</li>
+  <li>2x Phrygian Gold Ore</li>
+</ul>
+
+<p><strong>Armorer:</strong> Connoisseur’s Ornate Door</p>
+<ul>
+  <li>1x Select Titanium Plate (50 scrips)</li>
+  <li>2x Ironwood Log</li>
+</ul>
+
+<p><strong>Goldsmith:</strong> Connoisseur’s Vanity Mirror</p>
+<ul>
+  <li>1x Select Crystal Glass (50 scrips)</li>
+  <li>2x Bismuth Ore</li>
+</ul>
+
+<p><strong>Leatherworker:</strong> Connoisseur’s Rug</p>
+<ul>
+  <li>1x Select Smilodon Leather (50 scrips)</li>
+  <li>2x Almasty Fur</li>
+</ul>
+
+<p><strong>Weaver:</strong> Connoisseur’s Swag Valance</p>
+<ul>
+  <li>1x Select Scarlet Moko Cloth (50 scrips)</li>
+  <li>2x Almasty Fur</li>
+</ul>
+
+<p><strong>Alchemist:</strong> Connoisseur’s Cosmetics Box</p>
+<ul>
+  <li>1x Select Hoptrap Leaf (50 scrips)</li>
+  <li>2x Petalouda Scales</li>
+</ul>
+
+<p><strong>Culinarian:</strong> Connoisseur’s Pixieberry Tea</p>
+<ul>
+  <li>1x Select Pixieberry (50 scrips)</li>
+  <li>2x Sideritis Leaves</li>
+</ul>
+
+<h3 id="gatherers-collectables">Gatherers: Collectables</h3>
+
+<p><strong>Miner:</strong> Connoisseur’s Primstone</p>
+<ul>
+  <li>Quantity: 180 total</li>
+  <li>Location: Check Gathering Log (Sidequest section)</li>
+</ul>
+
+<p><strong>Botanist:</strong> Connoisseur’s Wattle Petribark</p>
+<ul>
+  <li>Quantity: 180 total</li>
+  <li>Location: Check Gathering Log (Sidequest section)</li>
+</ul>
+
+<p><strong>Fisher:</strong> Clavekeeper or Platinum Seahorse</p>
+<ul>
+  <li>Quantity: 120 fish total</li>
+  <li>Bait: Select Bait Ball (5 Purple Scrips from Quinnana)</li>
+  <li><strong>CRITICAL:</strong> Turn on Collectables mode before casting</li>
+  <li>Use Patience II and Cordials for efficiency</li>
+</ul>
+
+<hr />
+
+<h2 id="stage-2-crystalline-tools">Stage 2: Crystalline Tools</h2>
+
+<h3 id="quest-details-1">Quest Details</h3>
+
+<p><strong>Quest:</strong> An Adaptive Tool (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Location:</strong> The Crystarium (X:10.5, Y:7.7)<br />
+<strong>Requirement:</strong> Augmented Splendorous Tool in inventory</p>
+
+<h3 id="crafters-materials--strategy-1">Crafters: Materials &amp; Strategy</h3>
+
+<p><strong>Objective:</strong> Craft 30 collectables with max collectability</p>
+
+<p><strong>Turn-in:</strong> 90 Adaptive Components to Quinnana</p>
+
+<p><strong>Total Cost:</strong> ~1,500 Purple Scrips per job</p>
+
+<p><strong>Note:</strong> Recipes require 3-4 materials including Select items. Continue using Trained Eye for instant max collectability.</p>
+
+<h4 id="example-carpenter-recipe">Example: Carpenter Recipe</h4>
+
+<p><strong>Connoisseur’s Marimba:</strong></p>
+<ul>
+  <li>1x Select Ironwood Lumber (50 scrips)</li>
+  <li>1x Integral Lumber</li>
+  <li>1x Chondrite Ingot</li>
+</ul>
+
+<h3 id="gatherers-collectables-1">Gatherers: Collectables</h3>
+
+<p><strong>Miner:</strong> Connoisseur’s Red Malachite</p>
+<ul>
+  <li>Quantity: 180 total (570+ collectability)</li>
+</ul>
+
+<p><strong>Botanist:</strong> Connoisseur’s Levin Mint</p>
+<ul>
+  <li>Quantity: 180 total (570+ collectability)</li>
+</ul>
+
+<p><strong>Fisher:</strong> Spangled Pirarucu or Mirror Image</p>
+<ul>
+  <li>Quantity: 120 fish</li>
+  <li>Bait: Select Bait Ball (5 scrips each)</li>
+  <li>Target collectability: 425+ for Spangled Pirarucu</li>
+</ul>
+
+<hr />
+
+<h2 id="stage-3-chora-zois-crystalline-tools">Stage 3: Chora-Zoi’s Crystalline Tools</h2>
+
+<h3 id="quest-details-2">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool of Her Own (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi (speak to Grenoldt first to complete “The Joy of Zoi”)<br />
+<strong>Requirement:</strong> Crystalline Tool in inventory</p>
+
+<h3 id="crafters">Crafters</h3>
+
+<p><strong>Objective:</strong> 30 max collectability crafts<br />
+<strong>Turn-in:</strong> 90 Customized Components</p>
+
+<p><strong>Materials:</strong> 3-4 ingredients including Select items<br />
+<strong>Cost:</strong> ~1,500 Purple Scrips per job</p>
+
+<hr />
+
+<h2 id="stage-4-brilliant-tools">Stage 4: Brilliant Tools</h2>
+
+<h3 id="quest-details-3">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool without Compare (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Requirement:</strong> Chora-Zoi’s Crystalline Tool in inventory</p>
+
+<h3 id="crafters-1">Crafters</h3>
+
+<p><strong>Objective:</strong> 30 max collectability crafts<br />
+<strong>Turn-in:</strong> 90 Brilliant Components</p>
+
+<p><strong>Materials:</strong> 4 ingredients including Select items<br />
+<strong>Cost:</strong> ~2,000 Purple Scrips per job</p>
+
+<p><strong>Example: Carpenter (Connoisseur’s Bookshelf):</strong></p>
+<ul>
+  <li>1x Select Dark Chestnut Lumber</li>
+  <li>1x Integral Lumber</li>
+  <li>1x Select Ironwood Lumber</li>
+  <li>1x Manganese Ingot</li>
+</ul>
+
+<hr />
+
+<h2 id="stage-5-vrandtic-visionarys-tools">Stage 5: Vrandtic Visionary’s Tools</h2>
+
+<h3 id="quest-details-4">Quest Details</h3>
+
+<p><strong>Quest:</strong> A Tool for the Ages (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi (complete “La Vie Mowen” and “Dance Like Mowen is Watching” first)<br />
+<strong>Requirement:</strong> Brilliant Tool equipped</p>
+
+<h3 id="crafters-2">Crafters</h3>
+
+<p><strong>Objective:</strong> 20 max collectability crafts<br />
+<strong>Turn-in:</strong> 60 Inspirational Components</p>
+
+<p><strong>Cost:</strong> ~1,500 Purple Scrips per job</p>
+
+<p><strong>IMPORTANT:</strong> This stage requires a crafting macro (Trained Eye no longer works).</p>
+
+<h3 id="recommended-macro-stage-5">Recommended Macro (Stage 5)</h3>
+
+<p><strong>Stats Required:</strong></p>
+<ul>
+  <li>Craftsmanship: 4,860</li>
+  <li>Control: 4,968</li>
+  <li>CP: 628</li>
+  <li>Food: <span data-xivapi-item="44028">Mole Loaf (HQ)</span> or similar</li>
+</ul>
+
+<p><strong>Macro 1:</strong></p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>/ac "Reflect" &lt;wait.3&gt;
+/ac "Basic Touch" &lt;wait.3&gt;
+/ac "Refined Touch" &lt;wait.3&gt;
+/ac "Trained Perfection" &lt;wait.3&gt;
+/ac "Great Strides" &lt;wait.2&gt;
+/ac "Innovation" &lt;wait.2&gt;
+/ac "Preparatory Touch" &lt;wait.3&gt;
+/ac "Prudent Touch" &lt;wait.3&gt;
+/ac "Great Strides" &lt;wait.2&gt;
+/ac "Preparatory Touch" &lt;wait.3&gt;
+/ac "Immaculate Mend" &lt;wait.3&gt;
+/ac "Great Strides" &lt;wait.2&gt;
+/ac "Innovation" &lt;wait.2&gt;
+/ac "Waste Not II" &lt;wait.2&gt;
+/ac "Preparatory Touch" &lt;wait.3&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Macro 2:</strong></p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre>/ac "Great Strides" &lt;wait.2&gt;
+/ac "Byregot's Blessing" &lt;wait.3&gt;
+/ac "Veneration" &lt;wait.2&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Veneration" &lt;wait.2&gt;
+/ac "Careful Synthesis" &lt;wait.3&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<hr />
+
+<h2 id="stage-6-lodestar-tools-final-stage">Stage 6: Lodestar Tools (Final Stage)</h2>
+
+<h3 id="quest-details-5">Quest Details</h3>
+
+<p><strong>Quest:</strong> Stand Tool, My Friend (Repeatable)<br />
+<strong>NPC:</strong> Chora-Zoi<br />
+<strong>Requirement:</strong> Vrandtic Visionary’s Tool equipped</p>
+
+<h3 id="crafters-3">Crafters</h3>
+
+<p><strong>Objective:</strong> 20 max collectability crafts<br />
+<strong>Turn-in:</strong> 60 Nightforged Components</p>
+
+<p><strong>Cost:</strong> ~2,000 Purple Scrips per job</p>
+
+<p><strong>IMPORTANT:</strong> Requires enhanced macro with tincture.</p>
+
+<h3 id="recommended-macro-stage-6---final">Recommended Macro (Stage 6 - Final)</h3>
+
+<p><strong>Stats Required:</strong></p>
+<ul>
+  <li>Craftsmanship: 5,004</li>
+  <li>Control: 4,914</li>
+  <li>CP: 748</li>
+  <li>Food: <span data-xivapi-item="44028">Mole Loaf (HQ)</span></li>
+  <li>Potion: <span data-xivapi-item="44122">Draught (HQ)</span> (Cunning Craftsman’s Tisane)</li>
+</ul>
+
+<p><strong>Macro 1:</strong></p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="rouge-code"><pre>/ac "Reflect" &lt;wait.3&gt;
+/ac "Prudent Touch" &lt;wait.3&gt;
+/ac "Innovation" &lt;wait.2&gt;
+/ac "Basic Touch" &lt;wait.3&gt;
+/ac "Basic Touch" &lt;wait.3&gt;
+/ac "Standard Touch" &lt;wait.3&gt;
+/ac "Advanced Touch" &lt;wait.3&gt;
+/ac "Immaculate Mend" &lt;wait.3&gt;
+/ac "Innovation" &lt;wait.2&gt;
+/ac "Prudent Touch" &lt;wait.3&gt;
+/ac "Basic Touch" &lt;wait.3&gt;
+/ac "Standard Touch" &lt;wait.3&gt;
+/ac "Advanced Touch" &lt;wait.3&gt;
+/ac "Trained Perfection" &lt;wait.3&gt;
+/ac "Great Strides" &lt;wait.2&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Macro 2:</strong></p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+</pre></td><td class="rouge-code"><pre>/ac "Innovation" &lt;wait.2&gt;
+/ac "Preparatory Touch" &lt;wait.3&gt;
+/ac "Great Strides" &lt;wait.2&gt;
+/ac "Byregot's Blessing" &lt;wait.3&gt;
+/ac "Careful Synthesis" &lt;wait.3&gt;
+/ac "Immaculate Mend" &lt;wait.3&gt;
+/ac "Waste Not" &lt;wait.2&gt;
+/ac "Veneration" &lt;wait.2&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Groundwork" &lt;wait.3&gt;
+/ac "Careful Synthesis" &lt;wait.3&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><strong>Congratulations! You now have your Lodestar Tool - the final stage of the Splendorous relic chain.</strong></p>
+
+<hr />
+
+<h2 id="efficient-purple-scrip-farming">Efficient Purple Scrip Farming</h2>
+
+<h3 id="custom-deliveries-best-passive-method">Custom Deliveries (Best Passive Method)</h3>
+
+<p><strong>Weekly Reset:</strong> Tuesday at 8 AM server time</p>
+
+<p><strong>NPCs:</strong> M’naago, Adkiragh, Kai-Shirr, Kurenai, Ameliance, etc.</p>
+
+<p><strong>Scrips per Week:</strong> 1,500-2,000 (varies by satisfaction bonus)</p>
+
+<p><strong>Time Investment:</strong> 30-60 minutes per week</p>
+
+<p><strong>Strategy:</strong> This alone can complete 1-2 relic tools per week with zero additional grinding.</p>
+
+<h3 id="collectable-turn-ins-active-farming">Collectable Turn-Ins (Active Farming)</h3>
+
+<h4 id="top-tier-crafting-collectables">Top Tier Crafting Collectables</h4>
+
+<p><strong>1. Rarefied Giant Popoto Pancakes (Culinarian)</strong></p>
+<ul>
+  <li>Materials: 4 main ingredients + 2 pre-crafts</li>
+  <li>Difficulty: Easy (cruise control)</li>
+  <li>Strategy: Quick synth base materials, macro the final craft</li>
+</ul>
+
+<p><strong>2. Rarefied Integral Armillae (Carpenter)</strong></p>
+<ul>
+  <li>Materials: Moderate (some Weaver materials needed)</li>
+  <li>Difficulty: Easy</li>
+  <li>Note: Crystal-intensive</li>
+</ul>
+
+<p><strong>3. Rarefied Draught (Alchemist)</strong></p>
+<ul>
+  <li>Materials: Berkanan Sap (farmable via FATEs)</li>
+  <li>Difficulty: Easy</li>
+  <li>Strategy: Trade Bicolor Gemstones to Faezbroez in Labyrinthos for Berkanan Sap</li>
+</ul>
+
+<h4 id="gathering-collectables">Gathering Collectables</h4>
+
+<p><strong>Any level 90+ collectable</strong> works. Check your Gathering Log for current options and choose based on:</p>
+<ul>
+  <li>Node location convenience</li>
+  <li>Material value (sell extras on market board)</li>
+  <li>Collectability threshold difficulty</li>
+</ul>
+
+<hr />
+
+<h2 id="cost-breakdown-complete-tool-progression">Cost Breakdown: Complete Tool Progression</h2>
+
+<h3 id="per-job-cost-scrips">Per Job Cost (Scrips)</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Stage</th>
+      <th>Crafter Cost</th>
+      <th>Gatherer Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Base Tool</td>
+      <td>1,500</td>
+      <td>1,500</td>
+    </tr>
+    <tr>
+      <td>Augmented</td>
+      <td>1,000</td>
+      <td>~600 (bait)</td>
+    </tr>
+    <tr>
+      <td>Crystalline</td>
+      <td>1,500</td>
+      <td>~600 (bait)</td>
+    </tr>
+    <tr>
+      <td>Chora-Zoi’s</td>
+      <td>1,500</td>
+      <td>~600 (bait)</td>
+    </tr>
+    <tr>
+      <td>Brilliant</td>
+      <td>2,000</td>
+      <td>~800 (bait)</td>
+    </tr>
+    <tr>
+      <td>Vrandtic Visionary’s</td>
+      <td>1,500</td>
+      <td>~800 (bait)</td>
+    </tr>
+    <tr>
+      <td>Lodestar</td>
+      <td>2,000</td>
+      <td>~1,000 (bait)</td>
+    </tr>
+    <tr>
+      <td><strong>TOTAL</strong></td>
+      <td><strong>~11,000</strong></td>
+      <td><strong>~6,900</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="additional-costs">Additional Costs</h3>
+
+<p><strong>Food:</strong> <span data-xivapi-item="44028">Mole Loaf (HQ)</span> or <span data-xivapi-item="36106">Rarefied Tsai tou Vonou (HQ)</span></p>
+<ul>
+  <li>Cost: 5,000-20,000 gil per stack</li>
+  <li>Usage: Stages 5-6 require food buffs</li>
+</ul>
+
+<p><strong>Tinctures:</strong> <span data-xivapi-item="44122">Draught (HQ)</span></p>
+<ul>
+  <li>Cost: 10,000-30,000 gil per stack</li>
+  <li>Usage: Stage 6 (final) requires tincture</li>
+</ul>
+
+<hr />
+
+<h2 id="tips--strategies">Tips &amp; Strategies</h2>
+
+<h3 id="efficient-progression-path">Efficient Progression Path</h3>
+
+<p><strong>Week 1:</strong> Complete Custom Deliveries, buy base tool<br />
+<strong>Week 2:</strong> Grind Augmented stage (Trained Eye spam)<br />
+<strong>Week 3:</strong> Complete Crystalline stage<br />
+<strong>Week 4:</strong> Complete Chora-Zoi’s stage<br />
+<strong>Week 5:</strong> Complete Brilliant stage<br />
+<strong>Week 6-7:</strong> Complete final two stages (require macros)</p>
+
+<p><strong>Total Time:</strong> 6-8 weeks casually, 1-2 weeks if grinding hard</p>
+
+<h3 id="multi-job-strategy">Multi-Job Strategy</h3>
+
+<p><strong>Parallel Progression:</strong></p>
+<ul>
+  <li>Buy all 8 crafter base tools at once (10,500 scrips)</li>
+  <li>Progress all crafters through Stage 1-4 together (Trained Eye spam)</li>
+  <li>Stages 5-6: One job at a time (macro requirements)</li>
+</ul>
+
+<p><strong>Benefits:</strong></p>
+<ul>
+  <li>Efficient scrip usage</li>
+  <li>Batch crafting materials</li>
+  <li>Faster overall completion</li>
+</ul>
+
+<h3 id="gatherer-specific-tips">Gatherer-Specific Tips</h3>
+
+<p><strong>Fishing:</strong></p>
+<ul>
+  <li>Use Patience II for double components on high collectability</li>
+  <li><span data-xivapi-item="6367">Hi-Cordial</span> or <span data-xivapi-item="27922">Cordial</span> to recover GP</li>
+  <li>Food buff helps meet collectability thresholds</li>
+</ul>
+
+<p><strong>Mining/Botanist:</strong></p>
+<ul>
+  <li>Use Collector’s Glove rotation</li>
+  <li>Gather extra for market board sales</li>
+  <li>Hit 570+ collectability for double components</li>
+</ul>
+
+<hr />
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="i-cant-hit-max-collectability">“I can’t hit max collectability”</h3>
+
+<p><strong>Stage 1-4:</strong> Use Trained Eye (instant max collectability)</p>
+
+<p><strong>Stage 5-6:</strong></p>
+<ul>
+  <li>Verify your stats meet macro requirements</li>
+  <li>Use HQ food and tincture (stage 6)</li>
+  <li>Overmeld if necessary</li>
+  <li>Consider melding Cunning materia for CP</li>
+</ul>
+
+<h3 id="macros-arent-working">“Macros aren’t working”</h3>
+
+<p><strong>Common Issues:</strong></p>
+<ul>
+  <li>Lag causing actions to fail (increase wait times in the macro)</li>
+  <li>Stats too low (verify min requirements)</li>
+  <li>Not using food/tincture</li>
+  <li>Wrong tool equipped</li>
+</ul>
+
+<h3 id="gathering-collectables-is-slow">“Gathering collectables is slow”</h3>
+
+<p><strong>Solutions:</strong></p>
+<ul>
+  <li>Use GP rotation guides (Diadem skills)</li>
+  <li>Equip better gathering gear</li>
+  <li>Use food for stat boost</li>
+  <li>Cordials for GP recovery</li>
+</ul>
+
+<hr />
+
+<h2 id="achievement-rewards">Achievement Rewards</h2>
+
+<p><strong>Completing all Lodestar Tools grants:</strong></p>
+<ul>
+  <li>“Lodestar Luminary” title (all 11 tools completed)</li>
+  <li>Glamour options for all tool stages</li>
+  <li>Satisfaction of completing endgame relic grind</li>
+</ul>
+
+<hr />
+
+<h2 id="related-guides">Related Guides</h2>
+
+<ul>
+  <li><a href="#">FFXIV Custom Deliveries Guide</a> - Maximize scrip income</li>
+  <li><a href="#">FFXIV Collectable Gathering Rotation</a> - Efficient gathering</li>
+  <li><a href="#">FFXIV Crafting Macro Guide</a> - Build your own macros</li>
+</ul>
+
+<hr />
+
+<p><strong>The Splendorous/Lodestar Tools represent hundreds of hours of FFXIV crafter/gatherer dedication. Take breaks, use Custom Deliveries for passive progress, and enjoy the journey to your shiny new relics!</strong></p>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="splendorous-tools" /><category term="lodestar-tools" /><category term="crafting-relics" /><category term="gathering-relics" /><category term="endwalker" /><category term="dawntrail" /><category term="crystalline-tools" /><summary type="html"><![CDATA[Complete guide to Splendorous Tools (Lodestar Tools) for FFXIV crafters and gatherers. Step-by-step progression from base tools through all 6 upgrade stages with materials, scrip costs, and macros.]]></summary></entry><entry><title type="html">FFXIV Crafting Leveling Guide 1-90 — DoH Leveling (Endwalker)</title><link href="https://zodiarksembrace.com/crafting/2023/02/28/Crafting_DoH_Guide_1-90/" rel="alternate" type="text/html" title="FFXIV Crafting Leveling Guide 1-90 — DoH Leveling (Endwalker)" /><published>2023-02-28T18:52:14+00:00</published><updated>2023-02-28T18:52:14+00:00</updated><id>https://zodiarksembrace.com/crafting/2023/02/28/Crafting_DoH_Guide_1-90</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2023/02/28/Crafting_DoH_Guide_1-90/"><![CDATA[<p>Hey there, adventurer!</p>
+
+<p>Are you ready to level up your crafting classes in Final Fantasy XIV Endwalker? Look no further; I’ve got you covered with my comprehensive <strong>Crafting Guide</strong> and <strong>Leveling Guide</strong>! In this guide, I’ll show you how to quickly <em>level all your crafter classes from <strong>1 to 90</strong></em>.
+If you’re new to crafting, don’t worry - I’ll provide macros to do most of the heavy lifting. And if you want to skip the grind, I’ll share some tips for buying the gear and materials needed for Grade 4 Ishgard Restoration recipes on the Market Board. With my suggested equipment and macros, you’ll breeze through the leveling process and gain huge EXP bonuses.
+Whether you choose to level all your classes together or one at a time, I’ve got you covered. Plan your inventory space accordingly, and let’s get crafting!
+<!--more--></p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Before diving into crafting in Final Fantasy XIV, there are a few prerequisites you need to fulfill to ensure a smooth journey. Here are the essential requirements:</p>
+<ul>
+  <li><strong>Main Class Level 70+</strong>: To access The Firmament and begin crafting, you must have your main class at level 70 or above. Additionally, you must have completed the <em>Stormblood Main Scenario</em> to gain access to The Firmament.</li>
+  <li><strong>Tools</strong>: Your Main Hand and Off-Hand tools will help carry most of the stat requirements we need to craft. They can easily be purchased from various NPCs in the game. If you don’t have access to the required NPCs, you’ll rely on the Market Board to obtain tools instead.</li>
+  <li><strong>Engineering Manuals</strong>: You’ll need access to Engineering Manuals to provide a +50% boost to EXP during Levels 1-21. While these manuals can be used at any level, they are most vital at these levels as nearly all EXP is awarded from crafting. The easiest way to obtain Engineering Manuals is by using Grand Company Seals.</li>
+  <li><strong>HQ Tsai tou Vounou Food</strong>: You will need to stock up on High-Quality Tsai tou Vounou, the food of choice for our macros due to their great Control and CP bonuses.</li>
+  <li><strong>3-5 Million Gil</strong>: You’ll need some starting funds to purchase gear, tools, materia, food, and materials to prepare for the journey from 1-80. While these numbers are not absolutely required, it is nice to have! Besides, you don’t mind gathering it all yourself, do you?</li>
+</ul>
+
+<p>In fulfilling these prerequisites, you’ll be well-prepared to embark on your crafting journey and level up your crafter classes from 1-90. This guide can be followed to the end without completing the <em>Shadowbringers</em> or <em>Endwalker</em> Story Quests, thanks to Ishgardian Restoration – Great news for all you players who want to stretch the game out as much as possible!</p>
+<h2 id="levels-1---21">Levels 1 - 21</h2>
+<h3 id="ishgard-restoration--the-diadem">Ishgard Restoration &amp; The Diadem</h3>
+<h3 id="gearsets">Gearsets</h3>
+<h3 id="crafting-recipes--macro">Crafting Recipes &amp; Macro</h3>
+<h2 id="levels-21---41">Levels 21 - 41</h2>
+<h3 id="gearsets-1">Gearsets</h3>
+<h3 id="crafting-recipes--macro-1">Crafting Recipes &amp; Macro</h3>
+<h2 id="levels-41---53">Levels 41 - 53</h2>
+<h3 id="gearsets-2">Gearsets</h3>
+<h3 id="crafting-recipes--macro-2">Crafting Recipes &amp; Macro</h3>
+<h2 id="levels-53---63">Levels 53 - 63</h2>
+<h3 id="gearsets-3">Gearsets</h3>
+<h3 id="crafting-recipes--macro-3">Crafting Recipes &amp; Macro</h3>
+<h2 id="levels-63---73">Levels 63 - 73</h2>
+<h2 id="levels-71---78">Levels 71 - 78</h2>
+<h2 id="levels-78---81">Levels 78 - 81</h2>
+<h2 id="levels-81---85">Levels 81 - 85</h2>
+<h2 id="levels-85---90">Levels 85 - 90</h2>
+<h2 id="what-comes-next">What Comes Next?</h2>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="crafting" /><category term="leveling" /><category term="doh" /><category term="ishgard restoration" /><category term="endwalker" /><category term="macros" /><summary type="html"><![CDATA[Level all FFXIV crafters 1-90 with macros, Ishgard Restoration, and Diadem. DoH leveling guide for Endwalker with gear and EXP tips.]]></summary></entry><entry><title type="html">FFXIV Expert Crafting Guide — Conditions, Phases, and Macro-Free Tips</title><link href="https://zodiarksembrace.com/crafting/2021/01/28/Expert_Crafting/" rel="alternate" type="text/html" title="FFXIV Expert Crafting Guide — Conditions, Phases, and Macro-Free Tips" /><published>2021-01-28T09:15:22+00:00</published><updated>2021-01-28T09:15:22+00:00</updated><id>https://zodiarksembrace.com/crafting/2021/01/28/Expert_Crafting</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2021/01/28/Expert_Crafting/"><![CDATA[<blockquote>
+  <p><em>If you wish to make an apple pie from scratch, you must first invent the universe</em> - Carl Sagan</p>
+</blockquote>
+
+<!--more-->
+
+<h1 id="expert-crafting">Expert Crafting</h1>
+<p><strong><em>Expert Crafts</em></strong> were originally designed to be some of the most complicated crafts, with Higher than normal Quality maximums and strict gear requirements. With the addition of 6.0 Endwalker, things have certainly gotten easier in time. This guide aims to explain the basics behind <strong><em>Expert Crafting</em></strong> and serve as an entry point for anyone looking to get started or fine tune their process.</p>
+
+<h3 id="conditions">Conditions</h3>
+<p>There are no <em>Excellent</em> or <em>Poor</em> conditions with <strong><em>Expert Crafting</em></strong>, but there are 5 new status conditions to watch out for:</p>
+
+<ul>
+  <li>Centered - <em>Increases action success rate by 25%</em></li>
+  <li>Sturdy - <em>Reduces loss of durability by 50% (Can stack with Waste Not)</em></li>
+  <li>Pliant - <em>Reduces CP cost by 50%</em></li>
+  <li>Malleable - <em>Increases to progress are 1.5 times higher than normal (be careful, it multiplies not adds on buffs so it’s slightly stronger than veneration)</em></li>
+  <li>Primed - <em>Next status granted by an action will last 2 additional steps</em></li>
+</ul>
+
+<h3 id="crafting-phases">Crafting Phases</h3>
+<pre><code class="language-mermaid">graph LR
+A{Opener Phase} --&gt; B{Quality Phase}
+B --&gt; C((Finishing Steps))
+</code></pre>
+<h4 id="opener-phase">Opener Phase</h4>
+<p>The <strong>Opener Phase</strong> is where you ideally want to build up as much progress as you can, start <em>Inner Quiet</em>, and have <em>Manipulation</em> up depending on your Condition RNG. For this you’ll be focusing on item <em>conditions</em>, using skills and buffs as you make your way towards Progress completion. You’ll want to repeat these steps until you are one progress skill away from completing your craft. It doesn’t matter what skill you use to complete the craft in the <strong><em>Finishing Phase</em></strong> (<em>Basic Synth, Careful Synth, etc.</em>), the key thing to remember is not to complete the craft before completing your Quality Phase!</p>
+
+<pre><code class="language-mermaid">graph LR
+J((Start)) --&gt; A
+J --&gt; C
+J --&gt; E
+J --&gt; G
+A[Centered, Sturdy, Primed, Normal] --&gt; B{Rapid Synth}
+C[Malleable] -- Final Appraisal --&gt; B
+E[Pliant] --&gt; F((Manipulation)) --&gt; I
+F -- If Already Used --&gt; K{Inner Quiet}
+E -- End of Opener? --&gt; B
+G[Good] --&gt; H[Tricks of the Trade] --&gt; I
+G -- Max CP? --&gt; B
+B --&gt; I((Check Condition))
+</code></pre>
+
+<h4 id="quality-phase">Quality Phase</h4>
+<p>The <strong>Quality Phase</strong> is easily the most complicated portion of these Expert Crafts. Your goal during this portion is to build 11 stacks of Inner Quiet, while maintaining your Crafting Points (CP), and making sure you don’r run out of Durability. Sounds complex, but its actually pretty easy to get into a rhythm once you’re used to seeing Conditions and reacting to them.</p>
+
+<pre><code class="language-mermaid">graph LR
+A[Inner Quiet if not Up Already] --&gt; B{Start}
+B --&gt; C[Normal or Malleable]
+B --&gt; D[Pliant]
+B --&gt; E[Centered]
+B --&gt; F[Sturdy]
+B --&gt; G[Primed]
+B --&gt; H[Good]
+C --&gt; I{Prudent Touch}
+D --&gt; J{Manipulation}
+G --&gt; K{Innovation}
+H --&gt; L{Precise Touch}
+H -- 11 Stacks of IQ --&gt; M{ToT}
+</code></pre>
+
+<h4 id="finisher-phase">Finisher Phase</h4>
+
+<p><strong>Under Construction</strong></p>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="expert crafting" /><category term="conditions" /><category term="quality phase" /><category term="crafting guide" /><summary type="html"><![CDATA[Learn FFXIV expert crafting: Centered, Sturdy, Pliant, Malleable, Primed conditions, opener and quality phases, and when to adapt.]]></summary></entry><entry><title type="html">FFXIV Specialist Crafting Guide — How Specialists Work</title><link href="https://zodiarksembrace.com/crafting/2020/02/18/Specialists/" rel="alternate" type="text/html" title="FFXIV Specialist Crafting Guide — How Specialists Work" /><published>2020-02-18T10:47:14+00:00</published><updated>2020-02-18T10:47:14+00:00</updated><id>https://zodiarksembrace.com/crafting/2020/02/18/Specialists</id><content type="html" xml:base="https://zodiarksembrace.com/crafting/2020/02/18/Specialists/"><![CDATA[<blockquote>
+  <p>Crafting with Extra Steps
+<!--more--></p>
+  <h1 id="specialist-crafting">Specialist Crafting</h1>
+</blockquote>]]></content><author><name>Sarah Copeland</name></author><category term="crafting" /><category term="ffxiv" /><category term="specialist crafting" /><category term="crafting" /><category term="specialists" /><summary type="html"><![CDATA[FFXIV specialist crafting explained: what specialists are, how to unlock and use them for extra crafting steps and recipes.]]></summary></entry></feed>
